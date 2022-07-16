@@ -1,0 +1,7 @@
+# Allow all,
+
+# ignore Project librarys
+/Library/
+# ignore Logs
+/Logs/
+# 
