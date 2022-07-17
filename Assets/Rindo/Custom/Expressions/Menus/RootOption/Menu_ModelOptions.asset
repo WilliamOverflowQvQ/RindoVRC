@@ -64,3 +64,13 @@ MonoBehaviour:
     subMenu: {fileID: 0}
     subParameters: []
     labels: []
+  - name: Hair Color
+    icon: {fileID: 2800000, guid: 6c241c9f302f5a048b81f1f6771e2003, type: 3}
+    type: 103
+    parameter:
+      name: 
+    value: 1
+    style: 0
+    subMenu: {fileID: 11400000, guid: c0dd07d4cfd39bf4b8130a40fb92a688, type: 2}
+    subParameters: []
+    labels: []
