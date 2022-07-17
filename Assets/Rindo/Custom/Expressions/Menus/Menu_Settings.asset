@@ -10,26 +10,26 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: -340790334, guid: 67cc4cb7839cd3741b63733d5adf0442, type: 3}
-  m_Name: Menu_Emojis
+  m_Name: Menu_Settings
   m_EditorClassIdentifier: 
   controls:
-  - name: Emoji 1
-    icon: {fileID: 2800000, guid: 48795815b637acb448f2a3bf2d953420, type: 3}
-    type: 103
+  - name: Particle
+    icon: {fileID: 2800000, guid: a8f7b560116d2b44cba2cb421e71e847, type: 3}
+    type: 102
     parameter:
-      name: 
+      name: Particle
     value: 1
     style: 0
-    subMenu: {fileID: 11400000, guid: 80936f5083521724392b628e921b910f, type: 2}
+    subMenu: {fileID: 0}
     subParameters: []
     labels: []
-  - name: Emoji 2
-    icon: {fileID: 2800000, guid: 870095ffb3b55404fb34f9fc597ad282, type: 3}
-    type: 103
+  - name: Voice
+    icon: {fileID: 2800000, guid: e85fe52e47101d348b355c63e6959c90, type: 3}
+    type: 102
     parameter:
-      name: 
+      name: Rindo_Voice
     value: 1
     style: 0
-    subMenu: {fileID: 11400000, guid: d8a06680121014a49b6d7c4af5659913, type: 2}
+    subMenu: {fileID: 0}
     subParameters: []
     labels: []

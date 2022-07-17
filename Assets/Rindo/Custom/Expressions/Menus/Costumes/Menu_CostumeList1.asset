@@ -10,67 +10,66 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: -340790334, guid: 67cc4cb7839cd3741b63733d5adf0442, type: 3}
-  m_Name: Menu_ModelOptions
+  m_Name: Menu_CostumeList1
   m_EditorClassIdentifier: 
   controls:
-  - name: Breast size
-    icon: {fileID: 2800000, guid: 68accf6664e896240bbd3ea47e9e9b3b, type: 3}
-    type: 203
-    parameter:
-      name: 
-    value: 1
-    style: 0
-    subMenu: {fileID: 0}
-    subParameters:
-    - name: Breast size
-    labels: []
-  - name: Short hair
-    icon: {fileID: 2800000, guid: 3683acfa1e2d9594b8f445f1e89ed208, type: 3}
+  - name: Sera
+    icon: {fileID: 2800000, guid: 390fdd5fa5f4b7e4aa3bcb7c87c5ad5d, type: 3}
     type: 102
     parameter:
-      name: Short hair
+      name: RINDO_costume
     value: 1
     style: 0
     subMenu: {fileID: 0}
     subParameters: []
     labels: []
-  - name: Hair acc
-    icon: {fileID: 2800000, guid: 6c241c9f302f5a048b81f1f6771e2003, type: 3}
+  - name: Sera white
+    icon: {fileID: 2800000, guid: 3121238daa222cc4393225bee8510dc4, type: 3}
     type: 102
     parameter:
-      name: Hair acc
+      name: RINDO_costume
+    value: 2
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters: []
+    labels: []
+  - name: Underwear
+    icon: {fileID: 2800000, guid: 287f0b19da9c08e41b5dea111f5396ad, type: 3}
+    type: 102
+    parameter:
+      name: RINDO_costume
+    value: 3
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters: []
+    labels: []
+  - name: Stocking
+    icon: {fileID: 2800000, guid: 6977c4649f341bc4e93ad74fe371007d, type: 3}
+    type: 102
+    parameter:
+      name: Stocking
     value: 1
     style: 0
     subMenu: {fileID: 0}
     subParameters: []
     labels: []
-  - name: Kemono
-    icon: {fileID: 2800000, guid: dd95039487668174f89f4a771f99d95f, type: 3}
+  - name: Sleeve
+    icon: {fileID: 2800000, guid: 1c31d48b2d72b9a44ad0d507247384df, type: 3}
     type: 102
     parameter:
-      name: Kemono
+      name: Sleeve
     value: 1
     style: 0
     subMenu: {fileID: 0}
     subParameters: []
     labels: []
-  - name: Hill
-    icon: {fileID: 2800000, guid: 12c293d19387c1a46970f0724803fe50, type: 3}
+  - name: Skirt
+    icon: {fileID: 2800000, guid: 3afbaf708600c3f41be1a26371c9ecbf, type: 3}
     type: 102
     parameter:
-      name: Hill
+      name: Skirt
     value: 1
     style: 0
     subMenu: {fileID: 0}
-    subParameters: []
-    labels: []
-  - name: Hair Color
-    icon: {fileID: 2800000, guid: 6c241c9f302f5a048b81f1f6771e2003, type: 3}
-    type: 103
-    parameter:
-      name: 
-    value: 1
-    style: 0
-    subMenu: {fileID: 11400000, guid: c0dd07d4cfd39bf4b8130a40fb92a688, type: 2}
     subParameters: []
     labels: []

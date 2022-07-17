@@ -1,0 +1,45 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -340790334, guid: 67cc4cb7839cd3741b63733d5adf0442, type: 3}
+  m_Name: Menu_BodySettings
+  m_EditorClassIdentifier: 
+  controls:
+  - name: FacialAttachments
+    icon: {fileID: 2800000, guid: 62a994acd3eda6b42bdf1c43f19eb1af, type: 3}
+    type: 103
+    parameter:
+      name: 
+    value: 1
+    style: 0
+    subMenu: {fileID: 11400000, guid: 6975edd45c880954aa821c1e861c56ad, type: 2}
+    subParameters: []
+    labels: []
+  - name: HairColor
+    icon: {fileID: 2800000, guid: 6c241c9f302f5a048b81f1f6771e2003, type: 3}
+    type: 103
+    parameter:
+      name: 
+    value: 1
+    style: 0
+    subMenu: {fileID: 11400000, guid: c0dd07d4cfd39bf4b8130a40fb92a688, type: 2}
+    subParameters: []
+    labels: []
+  - name: ModelOptions
+    icon: {fileID: 2800000, guid: dd95039487668174f89f4a771f99d95f, type: 3}
+    type: 103
+    parameter:
+      name: 
+    value: 1
+    style: 0
+    subMenu: {fileID: 11400000, guid: 0b0433f4bd249f34c832a8c0f395456b, type: 2}
+    subParameters: []
+    labels: []
