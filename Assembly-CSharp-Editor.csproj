@@ -57,6 +57,206 @@
     <Compile Include="Assets\Toon\Editor\RemoveUnusedMaterialProperties.cs" />
     <Compile Include="Assets\Toon\Editor\RemoveUnusedShaderKeywordsFromUTS2Material.cs" />
     <Compile Include="Assets\Toon\Editor\UTS2GUI.cs" />
+    <Compile Include="Assets\VRCAvatars3Tools\AnimationBindingSeparater\Editor\AnimationBindingSeparater.cs" />
+    <Compile Include="Assets\VRCAvatars3Tools\AnimatorControllerCombiner\Editor\AnimatorControllerCombiner.cs" />
+    <Compile Include="Assets\VRCAvatars3Tools\ExpressionParametersCombiner\Editor\ExpressionParametersCombiner.cs" />
+    <Compile Include="Assets\VRCAvatars3Tools\Utilitys\Editor\AnimatorControllerUtility.cs" />
+    <Compile Include="Assets\VRCAvatars3Tools\Utilitys\Editor\VRCAssetUtility.cs" />
+    <Compile Include="Assets\VRCAvatars3Tools\VRCAssetCreator\Editor\VRCAssetCreator.cs" />
+    <Compile Include="Assets\VRCAvatars3Tools\VRCAvatarConverterTo3\Editor\ObjectSelectorWrapper.cs" />
+    <Compile Include="Assets\VRCAvatars3Tools\VRCAvatarConverterTo3\Editor\Plugins\YamlDotNet\Core\AnchorNotFoundException.cs" />
+    <Compile Include="Assets\VRCAvatars3Tools\VRCAvatarConverterTo3\Editor\Plugins\YamlDotNet\Core\CharacterAnalyzer.cs" />
+    <Compile Include="Assets\VRCAvatars3Tools\VRCAvatarConverterTo3\Editor\Plugins\YamlDotNet\Core\Constants.cs" />
+    <Compile Include="Assets\VRCAvatars3Tools\VRCAvatarConverterTo3\Editor\Plugins\YamlDotNet\Core\Cursor.cs" />
+    <Compile Include="Assets\VRCAvatars3Tools\VRCAvatarConverterTo3\Editor\Plugins\YamlDotNet\Core\Emitter.cs" />
+    <Compile Include="Assets\VRCAvatars3Tools\VRCAvatarConverterTo3\Editor\Plugins\YamlDotNet\Core\EmitterState.cs" />
+    <Compile Include="Assets\VRCAvatars3Tools\VRCAvatarConverterTo3\Editor\Plugins\YamlDotNet\Core\Events\AnchorAlias.cs" />
+    <Compile Include="Assets\VRCAvatars3Tools\VRCAvatarConverterTo3\Editor\Plugins\YamlDotNet\Core\Events\Comment.cs" />
+    <Compile Include="Assets\VRCAvatars3Tools\VRCAvatarConverterTo3\Editor\Plugins\YamlDotNet\Core\Events\DocumentEnd.cs" />
+    <Compile Include="Assets\VRCAvatars3Tools\VRCAvatarConverterTo3\Editor\Plugins\YamlDotNet\Core\Events\DocumentStart.cs" />
+    <Compile Include="Assets\VRCAvatars3Tools\VRCAvatarConverterTo3\Editor\Plugins\YamlDotNet\Core\Events\EventType.cs" />
+    <Compile Include="Assets\VRCAvatars3Tools\VRCAvatarConverterTo3\Editor\Plugins\YamlDotNet\Core\Events\IParsingEventVisitor.cs" />
+    <Compile Include="Assets\VRCAvatars3Tools\VRCAvatarConverterTo3\Editor\Plugins\YamlDotNet\Core\Events\MappingEnd.cs" />
+    <Compile Include="Assets\VRCAvatars3Tools\VRCAvatarConverterTo3\Editor\Plugins\YamlDotNet\Core\Events\MappingStart.cs" />
+    <Compile Include="Assets\VRCAvatars3Tools\VRCAvatarConverterTo3\Editor\Plugins\YamlDotNet\Core\Events\MappingStyle.cs" />
+    <Compile Include="Assets\VRCAvatars3Tools\VRCAvatarConverterTo3\Editor\Plugins\YamlDotNet\Core\Events\NodeEvent.cs" />
+    <Compile Include="Assets\VRCAvatars3Tools\VRCAvatarConverterTo3\Editor\Plugins\YamlDotNet\Core\Events\ParsingEvent.cs" />
+    <Compile Include="Assets\VRCAvatars3Tools\VRCAvatarConverterTo3\Editor\Plugins\YamlDotNet\Core\Events\Scalar.cs" />
+    <Compile Include="Assets\VRCAvatars3Tools\VRCAvatarConverterTo3\Editor\Plugins\YamlDotNet\Core\Events\SequenceEnd.cs" />
+    <Compile Include="Assets\VRCAvatars3Tools\VRCAvatarConverterTo3\Editor\Plugins\YamlDotNet\Core\Events\SequenceStart.cs" />
+    <Compile Include="Assets\VRCAvatars3Tools\VRCAvatarConverterTo3\Editor\Plugins\YamlDotNet\Core\Events\SequenceStyle.cs" />
+    <Compile Include="Assets\VRCAvatars3Tools\VRCAvatarConverterTo3\Editor\Plugins\YamlDotNet\Core\Events\StreamEnd.cs" />
+    <Compile Include="Assets\VRCAvatars3Tools\VRCAvatarConverterTo3\Editor\Plugins\YamlDotNet\Core\Events\StreamStart.cs" />
+    <Compile Include="Assets\VRCAvatars3Tools\VRCAvatarConverterTo3\Editor\Plugins\YamlDotNet\Core\FakeList.cs" />
+    <Compile Include="Assets\VRCAvatars3Tools\VRCAvatarConverterTo3\Editor\Plugins\YamlDotNet\Core\ForwardAnchorNotSupportedException.cs" />
+    <Compile Include="Assets\VRCAvatars3Tools\VRCAvatarConverterTo3\Editor\Plugins\YamlDotNet\Core\HashCode.cs" />
+    <Compile Include="Assets\VRCAvatars3Tools\VRCAvatarConverterTo3\Editor\Plugins\YamlDotNet\Core\IEmitter.cs" />
+    <Compile Include="Assets\VRCAvatars3Tools\VRCAvatarConverterTo3\Editor\Plugins\YamlDotNet\Core\ILookAheadBuffer.cs" />
+    <Compile Include="Assets\VRCAvatars3Tools\VRCAvatarConverterTo3\Editor\Plugins\YamlDotNet\Core\IParser.cs" />
+    <Compile Include="Assets\VRCAvatars3Tools\VRCAvatarConverterTo3\Editor\Plugins\YamlDotNet\Core\IScanner.cs" />
+    <Compile Include="Assets\VRCAvatars3Tools\VRCAvatarConverterTo3\Editor\Plugins\YamlDotNet\Core\InsertionQueue.cs" />
+    <Compile Include="Assets\VRCAvatars3Tools\VRCAvatarConverterTo3\Editor\Plugins\YamlDotNet\Core\LookAheadBuffer.cs" />
+    <Compile Include="Assets\VRCAvatars3Tools\VRCAvatarConverterTo3\Editor\Plugins\YamlDotNet\Core\Mark.cs" />
+    <Compile Include="Assets\VRCAvatars3Tools\VRCAvatarConverterTo3\Editor\Plugins\YamlDotNet\Core\MaximumRecursionLevelReachedException.cs" />
+    <Compile Include="Assets\VRCAvatars3Tools\VRCAvatarConverterTo3\Editor\Plugins\YamlDotNet\Core\MergingParser.cs" />
+    <Compile Include="Assets\VRCAvatars3Tools\VRCAvatarConverterTo3\Editor\Plugins\YamlDotNet\Core\Parser.cs" />
+    <Compile Include="Assets\VRCAvatars3Tools\VRCAvatarConverterTo3\Editor\Plugins\YamlDotNet\Core\ParserExtensions.cs" />
+    <Compile Include="Assets\VRCAvatars3Tools\VRCAvatarConverterTo3\Editor\Plugins\YamlDotNet\Core\ParserState.cs" />
+    <Compile Include="Assets\VRCAvatars3Tools\VRCAvatarConverterTo3\Editor\Plugins\YamlDotNet\Core\RecursionLevel.cs" />
+    <Compile Include="Assets\VRCAvatars3Tools\VRCAvatarConverterTo3\Editor\Plugins\YamlDotNet\Core\ScalarStyle.cs" />
+    <Compile Include="Assets\VRCAvatars3Tools\VRCAvatarConverterTo3\Editor\Plugins\YamlDotNet\Core\Scanner.cs" />
+    <Compile Include="Assets\VRCAvatars3Tools\VRCAvatarConverterTo3\Editor\Plugins\YamlDotNet\Core\SemanticErrorException.cs" />
+    <Compile Include="Assets\VRCAvatars3Tools\VRCAvatarConverterTo3\Editor\Plugins\YamlDotNet\Core\SimpleKey.cs" />
+    <Compile Include="Assets\VRCAvatars3Tools\VRCAvatarConverterTo3\Editor\Plugins\YamlDotNet\Core\StringLookAheadBuffer.cs" />
+    <Compile Include="Assets\VRCAvatars3Tools\VRCAvatarConverterTo3\Editor\Plugins\YamlDotNet\Core\SyntaxErrorException.cs" />
+    <Compile Include="Assets\VRCAvatars3Tools\VRCAvatarConverterTo3\Editor\Plugins\YamlDotNet\Core\TagDirectiveCollection.cs" />
+    <Compile Include="Assets\VRCAvatars3Tools\VRCAvatarConverterTo3\Editor\Plugins\YamlDotNet\Core\Tokens\Anchor.cs" />
+    <Compile Include="Assets\VRCAvatars3Tools\VRCAvatarConverterTo3\Editor\Plugins\YamlDotNet\Core\Tokens\AnchorAlias.cs" />
+    <Compile Include="Assets\VRCAvatars3Tools\VRCAvatarConverterTo3\Editor\Plugins\YamlDotNet\Core\Tokens\BlockEnd.cs" />
+    <Compile Include="Assets\VRCAvatars3Tools\VRCAvatarConverterTo3\Editor\Plugins\YamlDotNet\Core\Tokens\BlockEntry.cs" />
+    <Compile Include="Assets\VRCAvatars3Tools\VRCAvatarConverterTo3\Editor\Plugins\YamlDotNet\Core\Tokens\BlockMappingStart.cs" />
+    <Compile Include="Assets\VRCAvatars3Tools\VRCAvatarConverterTo3\Editor\Plugins\YamlDotNet\Core\Tokens\BlockSequenceStart.cs" />
+    <Compile Include="Assets\VRCAvatars3Tools\VRCAvatarConverterTo3\Editor\Plugins\YamlDotNet\Core\Tokens\Comment.cs" />
+    <Compile Include="Assets\VRCAvatars3Tools\VRCAvatarConverterTo3\Editor\Plugins\YamlDotNet\Core\Tokens\DocumentEnd.cs" />
+    <Compile Include="Assets\VRCAvatars3Tools\VRCAvatarConverterTo3\Editor\Plugins\YamlDotNet\Core\Tokens\DocumentStart.cs" />
+    <Compile Include="Assets\VRCAvatars3Tools\VRCAvatarConverterTo3\Editor\Plugins\YamlDotNet\Core\Tokens\FlowEntry.cs" />
+    <Compile Include="Assets\VRCAvatars3Tools\VRCAvatarConverterTo3\Editor\Plugins\YamlDotNet\Core\Tokens\FlowMappingEnd.cs" />
+    <Compile Include="Assets\VRCAvatars3Tools\VRCAvatarConverterTo3\Editor\Plugins\YamlDotNet\Core\Tokens\FlowMappingStart.cs" />
+    <Compile Include="Assets\VRCAvatars3Tools\VRCAvatarConverterTo3\Editor\Plugins\YamlDotNet\Core\Tokens\FlowSequenceEnd.cs" />
+    <Compile Include="Assets\VRCAvatars3Tools\VRCAvatarConverterTo3\Editor\Plugins\YamlDotNet\Core\Tokens\FlowSequenceStart.cs" />
+    <Compile Include="Assets\VRCAvatars3Tools\VRCAvatarConverterTo3\Editor\Plugins\YamlDotNet\Core\Tokens\Key.cs" />
+    <Compile Include="Assets\VRCAvatars3Tools\VRCAvatarConverterTo3\Editor\Plugins\YamlDotNet\Core\Tokens\Scalar.cs" />
+    <Compile Include="Assets\VRCAvatars3Tools\VRCAvatarConverterTo3\Editor\Plugins\YamlDotNet\Core\Tokens\StreamEnd.cs" />
+    <Compile Include="Assets\VRCAvatars3Tools\VRCAvatarConverterTo3\Editor\Plugins\YamlDotNet\Core\Tokens\StreamStart.cs" />
+    <Compile Include="Assets\VRCAvatars3Tools\VRCAvatarConverterTo3\Editor\Plugins\YamlDotNet\Core\Tokens\Tag.cs" />
+    <Compile Include="Assets\VRCAvatars3Tools\VRCAvatarConverterTo3\Editor\Plugins\YamlDotNet\Core\Tokens\TagDirective.cs" />
+    <Compile Include="Assets\VRCAvatars3Tools\VRCAvatarConverterTo3\Editor\Plugins\YamlDotNet\Core\Tokens\Token.cs" />
+    <Compile Include="Assets\VRCAvatars3Tools\VRCAvatarConverterTo3\Editor\Plugins\YamlDotNet\Core\Tokens\Value.cs" />
+    <Compile Include="Assets\VRCAvatars3Tools\VRCAvatarConverterTo3\Editor\Plugins\YamlDotNet\Core\Tokens\VersionDirective.cs" />
+    <Compile Include="Assets\VRCAvatars3Tools\VRCAvatarConverterTo3\Editor\Plugins\YamlDotNet\Core\Version.cs" />
+    <Compile Include="Assets\VRCAvatars3Tools\VRCAvatarConverterTo3\Editor\Plugins\YamlDotNet\Core\YamlException.cs" />
+    <Compile Include="Assets\VRCAvatars3Tools\VRCAvatarConverterTo3\Editor\Plugins\YamlDotNet\Examples\ConvertYamlToJson.cs" />
+    <Compile Include="Assets\VRCAvatars3Tools\VRCAvatarConverterTo3\Editor\Plugins\YamlDotNet\Examples\DeserializeObjectGraph.cs" />
+    <Compile Include="Assets\VRCAvatars3Tools\VRCAvatarConverterTo3\Editor\Plugins\YamlDotNet\Examples\DeserializingMultipleDocuments.cs" />
+    <Compile Include="Assets\VRCAvatars3Tools\VRCAvatarConverterTo3\Editor\Plugins\YamlDotNet\Examples\Helpers\ExampleRunner.cs" />
+    <Compile Include="Assets\VRCAvatars3Tools\VRCAvatarConverterTo3\Editor\Plugins\YamlDotNet\Examples\Helpers\SampleAttribute.cs" />
+    <Compile Include="Assets\VRCAvatars3Tools\VRCAvatarConverterTo3\Editor\Plugins\YamlDotNet\Examples\Helpers\TestOutputHelperExtensions.cs" />
+    <Compile Include="Assets\VRCAvatars3Tools\VRCAvatarConverterTo3\Editor\Plugins\YamlDotNet\Examples\LoadingAYamlStream.cs" />
+    <Compile Include="Assets\VRCAvatars3Tools\VRCAvatarConverterTo3\Editor\Plugins\YamlDotNet\Examples\SerializeObjectGraph.cs" />
+    <Compile Include="Assets\VRCAvatars3Tools\VRCAvatarConverterTo3\Editor\Plugins\YamlDotNet\Helpers\ExpressionExtensions.cs" />
+    <Compile Include="Assets\VRCAvatars3Tools\VRCAvatarConverterTo3\Editor\Plugins\YamlDotNet\Helpers\GenericCollectionToNonGenericAdapter.cs" />
+    <Compile Include="Assets\VRCAvatars3Tools\VRCAvatarConverterTo3\Editor\Plugins\YamlDotNet\Helpers\GenericDictionaryToNonGenericAdapter.cs" />
+    <Compile Include="Assets\VRCAvatars3Tools\VRCAvatarConverterTo3\Editor\Plugins\YamlDotNet\Helpers\ITestOutputHelper.cs" />
+    <Compile Include="Assets\VRCAvatars3Tools\VRCAvatarConverterTo3\Editor\Plugins\YamlDotNet\Helpers\Portability.cs" />
+    <Compile Include="Assets\VRCAvatars3Tools\VRCAvatarConverterTo3\Editor\Plugins\YamlDotNet\RepresentationModel\DocumentLoadingState.cs" />
+    <Compile Include="Assets\VRCAvatars3Tools\VRCAvatarConverterTo3\Editor\Plugins\YamlDotNet\RepresentationModel\EmitterState.cs" />
+    <Compile Include="Assets\VRCAvatars3Tools\VRCAvatarConverterTo3\Editor\Plugins\YamlDotNet\RepresentationModel\IYamlVisitor.cs" />
+    <Compile Include="Assets\VRCAvatars3Tools\VRCAvatarConverterTo3\Editor\Plugins\YamlDotNet\RepresentationModel\YamlAliasNode.cs" />
+    <Compile Include="Assets\VRCAvatars3Tools\VRCAvatarConverterTo3\Editor\Plugins\YamlDotNet\RepresentationModel\YamlDocument.cs" />
+    <Compile Include="Assets\VRCAvatars3Tools\VRCAvatarConverterTo3\Editor\Plugins\YamlDotNet\RepresentationModel\YamlMappingNode.cs" />
+    <Compile Include="Assets\VRCAvatars3Tools\VRCAvatarConverterTo3\Editor\Plugins\YamlDotNet\RepresentationModel\YamlNode.cs" />
+    <Compile Include="Assets\VRCAvatars3Tools\VRCAvatarConverterTo3\Editor\Plugins\YamlDotNet\RepresentationModel\YamlNodeIdentityEqualityComparer.cs" />
+    <Compile Include="Assets\VRCAvatars3Tools\VRCAvatarConverterTo3\Editor\Plugins\YamlDotNet\RepresentationModel\YamlNodeType.cs" />
+    <Compile Include="Assets\VRCAvatars3Tools\VRCAvatarConverterTo3\Editor\Plugins\YamlDotNet\RepresentationModel\YamlScalarNode.cs" />
+    <Compile Include="Assets\VRCAvatars3Tools\VRCAvatarConverterTo3\Editor\Plugins\YamlDotNet\RepresentationModel\YamlSequenceNode.cs" />
+    <Compile Include="Assets\VRCAvatars3Tools\VRCAvatarConverterTo3\Editor\Plugins\YamlDotNet\RepresentationModel\YamlStream.cs" />
+    <Compile Include="Assets\VRCAvatars3Tools\VRCAvatarConverterTo3\Editor\Plugins\YamlDotNet\RepresentationModel\YamlVisitor.cs" />
+    <Compile Include="Assets\VRCAvatars3Tools\VRCAvatarConverterTo3\Editor\Plugins\YamlDotNet\RepresentationModel\YamlVisitorBase.cs" />
+    <Compile Include="Assets\VRCAvatars3Tools\VRCAvatarConverterTo3\Editor\Plugins\YamlDotNet\Serialization\BuilderSkeleton.cs" />
+    <Compile Include="Assets\VRCAvatars3Tools\VRCAvatarConverterTo3\Editor\Plugins\YamlDotNet\Serialization\Converters\DateTimeConverter.cs" />
+    <Compile Include="Assets\VRCAvatars3Tools\VRCAvatarConverterTo3\Editor\Plugins\YamlDotNet\Serialization\Converters\GuidConverter.cs" />
+    <Compile Include="Assets\VRCAvatars3Tools\VRCAvatarConverterTo3\Editor\Plugins\YamlDotNet\Serialization\Deserializer.cs" />
+    <Compile Include="Assets\VRCAvatars3Tools\VRCAvatarConverterTo3\Editor\Plugins\YamlDotNet\Serialization\DeserializerBuilder.cs" />
+    <Compile Include="Assets\VRCAvatars3Tools\VRCAvatarConverterTo3\Editor\Plugins\YamlDotNet\Serialization\EmissionPhaseObjectGraphVisitorArgs.cs" />
+    <Compile Include="Assets\VRCAvatars3Tools\VRCAvatarConverterTo3\Editor\Plugins\YamlDotNet\Serialization\EventEmitters\ChainedEventEmitter.cs" />
+    <Compile Include="Assets\VRCAvatars3Tools\VRCAvatarConverterTo3\Editor\Plugins\YamlDotNet\Serialization\EventEmitters\CustomTagEventEmitter.cs" />
+    <Compile Include="Assets\VRCAvatars3Tools\VRCAvatarConverterTo3\Editor\Plugins\YamlDotNet\Serialization\EventEmitters\JsonEventEmitter.cs" />
+    <Compile Include="Assets\VRCAvatars3Tools\VRCAvatarConverterTo3\Editor\Plugins\YamlDotNet\Serialization\EventEmitters\TypeAssigningEventEmitter.cs" />
+    <Compile Include="Assets\VRCAvatars3Tools\VRCAvatarConverterTo3\Editor\Plugins\YamlDotNet\Serialization\EventEmitters\WriterEventEmitter.cs" />
+    <Compile Include="Assets\VRCAvatars3Tools\VRCAvatarConverterTo3\Editor\Plugins\YamlDotNet\Serialization\EventInfo.cs" />
+    <Compile Include="Assets\VRCAvatars3Tools\VRCAvatarConverterTo3\Editor\Plugins\YamlDotNet\Serialization\IAliasProvider.cs" />
+    <Compile Include="Assets\VRCAvatars3Tools\VRCAvatarConverterTo3\Editor\Plugins\YamlDotNet\Serialization\IEventEmitter.cs" />
+    <Compile Include="Assets\VRCAvatars3Tools\VRCAvatarConverterTo3\Editor\Plugins\YamlDotNet\Serialization\INamingConvention.cs" />
+    <Compile Include="Assets\VRCAvatars3Tools\VRCAvatarConverterTo3\Editor\Plugins\YamlDotNet\Serialization\INodeDeserializer.cs" />
+    <Compile Include="Assets\VRCAvatars3Tools\VRCAvatarConverterTo3\Editor\Plugins\YamlDotNet\Serialization\INodeTypeResolver.cs" />
+    <Compile Include="Assets\VRCAvatars3Tools\VRCAvatarConverterTo3\Editor\Plugins\YamlDotNet\Serialization\IObjectDescriptor.cs" />
+    <Compile Include="Assets\VRCAvatars3Tools\VRCAvatarConverterTo3\Editor\Plugins\YamlDotNet\Serialization\IObjectFactory.cs" />
+    <Compile Include="Assets\VRCAvatars3Tools\VRCAvatarConverterTo3\Editor\Plugins\YamlDotNet\Serialization\IObjectGraphTraversalStrategy.cs" />
+    <Compile Include="Assets\VRCAvatars3Tools\VRCAvatarConverterTo3\Editor\Plugins\YamlDotNet\Serialization\IObjectGraphVisitor.cs" />
+    <Compile Include="Assets\VRCAvatars3Tools\VRCAvatarConverterTo3\Editor\Plugins\YamlDotNet\Serialization\IPropertyDescriptor.cs" />
+    <Compile Include="Assets\VRCAvatars3Tools\VRCAvatarConverterTo3\Editor\Plugins\YamlDotNet\Serialization\IRegistrationLocationSelectionSyntax.cs" />
+    <Compile Include="Assets\VRCAvatars3Tools\VRCAvatarConverterTo3\Editor\Plugins\YamlDotNet\Serialization\ITypeInspector.cs" />
+    <Compile Include="Assets\VRCAvatars3Tools\VRCAvatarConverterTo3\Editor\Plugins\YamlDotNet\Serialization\ITypeResolver.cs" />
+    <Compile Include="Assets\VRCAvatars3Tools\VRCAvatarConverterTo3\Editor\Plugins\YamlDotNet\Serialization\IValueDeserializer.cs" />
+    <Compile Include="Assets\VRCAvatars3Tools\VRCAvatarConverterTo3\Editor\Plugins\YamlDotNet\Serialization\IValuePromise.cs" />
+    <Compile Include="Assets\VRCAvatars3Tools\VRCAvatarConverterTo3\Editor\Plugins\YamlDotNet\Serialization\IValueSerializer.cs" />
+    <Compile Include="Assets\VRCAvatars3Tools\VRCAvatarConverterTo3\Editor\Plugins\YamlDotNet\Serialization\IYamlConvertible.cs" />
+    <Compile Include="Assets\VRCAvatars3Tools\VRCAvatarConverterTo3\Editor\Plugins\YamlDotNet\Serialization\IYamlSerializable.cs" />
+    <Compile Include="Assets\VRCAvatars3Tools\VRCAvatarConverterTo3\Editor\Plugins\YamlDotNet\Serialization\IYamlTypeConverter.cs" />
+    <Compile Include="Assets\VRCAvatars3Tools\VRCAvatarConverterTo3\Editor\Plugins\YamlDotNet\Serialization\LazyComponentRegistrationList.cs" />
+    <Compile Include="Assets\VRCAvatars3Tools\VRCAvatarConverterTo3\Editor\Plugins\YamlDotNet\Serialization\LazyComponentRegistrationListExtensions.cs" />
+    <Compile Include="Assets\VRCAvatars3Tools\VRCAvatarConverterTo3\Editor\Plugins\YamlDotNet\Serialization\NamingConventions\CamelCaseNamingConvention.cs" />
+    <Compile Include="Assets\VRCAvatars3Tools\VRCAvatarConverterTo3\Editor\Plugins\YamlDotNet\Serialization\NamingConventions\HyphenatedNamingConvention.cs" />
+    <Compile Include="Assets\VRCAvatars3Tools\VRCAvatarConverterTo3\Editor\Plugins\YamlDotNet\Serialization\NamingConventions\NullNamingConvention.cs" />
+    <Compile Include="Assets\VRCAvatars3Tools\VRCAvatarConverterTo3\Editor\Plugins\YamlDotNet\Serialization\NamingConventions\PascalCaseNamingConvention.cs" />
+    <Compile Include="Assets\VRCAvatars3Tools\VRCAvatarConverterTo3\Editor\Plugins\YamlDotNet\Serialization\NamingConventions\UnderscoredNamingConvention.cs" />
+    <Compile Include="Assets\VRCAvatars3Tools\VRCAvatarConverterTo3\Editor\Plugins\YamlDotNet\Serialization\NodeDeserializers\ArrayNodeDeserializer.cs" />
+    <Compile Include="Assets\VRCAvatars3Tools\VRCAvatarConverterTo3\Editor\Plugins\YamlDotNet\Serialization\NodeDeserializers\CollectionNodeDeserializer.cs" />
+    <Compile Include="Assets\VRCAvatars3Tools\VRCAvatarConverterTo3\Editor\Plugins\YamlDotNet\Serialization\NodeDeserializers\DictionaryNodeDeserializer.cs" />
+    <Compile Include="Assets\VRCAvatars3Tools\VRCAvatarConverterTo3\Editor\Plugins\YamlDotNet\Serialization\NodeDeserializers\EnumerableNodeDeserializer.cs" />
+    <Compile Include="Assets\VRCAvatars3Tools\VRCAvatarConverterTo3\Editor\Plugins\YamlDotNet\Serialization\NodeDeserializers\NullNodeDeserializer.cs" />
+    <Compile Include="Assets\VRCAvatars3Tools\VRCAvatarConverterTo3\Editor\Plugins\YamlDotNet\Serialization\NodeDeserializers\ObjectNodeDeserializer.cs" />
+    <Compile Include="Assets\VRCAvatars3Tools\VRCAvatarConverterTo3\Editor\Plugins\YamlDotNet\Serialization\NodeDeserializers\ScalarNodeDeserializer.cs" />
+    <Compile Include="Assets\VRCAvatars3Tools\VRCAvatarConverterTo3\Editor\Plugins\YamlDotNet\Serialization\NodeDeserializers\TypeConverterNodeDeserializer.cs" />
+    <Compile Include="Assets\VRCAvatars3Tools\VRCAvatarConverterTo3\Editor\Plugins\YamlDotNet\Serialization\NodeDeserializers\YamlConvertibleNodeDeserializer.cs" />
+    <Compile Include="Assets\VRCAvatars3Tools\VRCAvatarConverterTo3\Editor\Plugins\YamlDotNet\Serialization\NodeDeserializers\YamlSerializableNodeDeserializer.cs" />
+    <Compile Include="Assets\VRCAvatars3Tools\VRCAvatarConverterTo3\Editor\Plugins\YamlDotNet\Serialization\NodeTypeResolvers\DefaultContainersNodeTypeResolver.cs" />
+    <Compile Include="Assets\VRCAvatars3Tools\VRCAvatarConverterTo3\Editor\Plugins\YamlDotNet\Serialization\NodeTypeResolvers\TagNodeTypeResolver.cs" />
+    <Compile Include="Assets\VRCAvatars3Tools\VRCAvatarConverterTo3\Editor\Plugins\YamlDotNet\Serialization\NodeTypeResolvers\TypeNameInTagNodeTypeResolver.cs" />
+    <Compile Include="Assets\VRCAvatars3Tools\VRCAvatarConverterTo3\Editor\Plugins\YamlDotNet\Serialization\NodeTypeResolvers\YamlConvertibleTypeResolver.cs" />
+    <Compile Include="Assets\VRCAvatars3Tools\VRCAvatarConverterTo3\Editor\Plugins\YamlDotNet\Serialization\NodeTypeResolvers\YamlSerializableTypeResolver.cs" />
+    <Compile Include="Assets\VRCAvatars3Tools\VRCAvatarConverterTo3\Editor\Plugins\YamlDotNet\Serialization\Nothing.cs" />
+    <Compile Include="Assets\VRCAvatars3Tools\VRCAvatarConverterTo3\Editor\Plugins\YamlDotNet\Serialization\ObjectDescriptor.cs" />
+    <Compile Include="Assets\VRCAvatars3Tools\VRCAvatarConverterTo3\Editor\Plugins\YamlDotNet\Serialization\ObjectFactories\DefaultObjectFactory.cs" />
+    <Compile Include="Assets\VRCAvatars3Tools\VRCAvatarConverterTo3\Editor\Plugins\YamlDotNet\Serialization\ObjectFactories\LambdaObjectFactory.cs" />
+    <Compile Include="Assets\VRCAvatars3Tools\VRCAvatarConverterTo3\Editor\Plugins\YamlDotNet\Serialization\ObjectGraphTraversalStrategies\FullObjectGraphTraversalStrategy.cs" />
+    <Compile Include="Assets\VRCAvatars3Tools\VRCAvatarConverterTo3\Editor\Plugins\YamlDotNet\Serialization\ObjectGraphTraversalStrategies\RoundtripObjectGraphTraversalStrategy.cs" />
+    <Compile Include="Assets\VRCAvatars3Tools\VRCAvatarConverterTo3\Editor\Plugins\YamlDotNet\Serialization\ObjectGraphVisitors\AnchorAssigner.cs" />
+    <Compile Include="Assets\VRCAvatars3Tools\VRCAvatarConverterTo3\Editor\Plugins\YamlDotNet\Serialization\ObjectGraphVisitors\AnchorAssigningObjectGraphVisitor.cs" />
+    <Compile Include="Assets\VRCAvatars3Tools\VRCAvatarConverterTo3\Editor\Plugins\YamlDotNet\Serialization\ObjectGraphVisitors\ChainedObjectGraphVisitor.cs" />
+    <Compile Include="Assets\VRCAvatars3Tools\VRCAvatarConverterTo3\Editor\Plugins\YamlDotNet\Serialization\ObjectGraphVisitors\CustomSerializationObjectGraphVisitor.cs" />
+    <Compile Include="Assets\VRCAvatars3Tools\VRCAvatarConverterTo3\Editor\Plugins\YamlDotNet\Serialization\ObjectGraphVisitors\DefaultExclusiveObjectGraphVisitor.cs" />
+    <Compile Include="Assets\VRCAvatars3Tools\VRCAvatarConverterTo3\Editor\Plugins\YamlDotNet\Serialization\ObjectGraphVisitors\EmittingObjectGraphVisitor.cs" />
+    <Compile Include="Assets\VRCAvatars3Tools\VRCAvatarConverterTo3\Editor\Plugins\YamlDotNet\Serialization\ObjectGraphVisitors\PreProcessingPhaseObjectGraphVisitorSkeleton.cs" />
+    <Compile Include="Assets\VRCAvatars3Tools\VRCAvatarConverterTo3\Editor\Plugins\YamlDotNet\Serialization\PropertyDescriptor.cs" />
+    <Compile Include="Assets\VRCAvatars3Tools\VRCAvatarConverterTo3\Editor\Plugins\YamlDotNet\Serialization\SerializationOptions.cs" />
+    <Compile Include="Assets\VRCAvatars3Tools\VRCAvatarConverterTo3\Editor\Plugins\YamlDotNet\Serialization\Serializer.cs" />
+    <Compile Include="Assets\VRCAvatars3Tools\VRCAvatarConverterTo3\Editor\Plugins\YamlDotNet\Serialization\SerializerBuilder.cs" />
+    <Compile Include="Assets\VRCAvatars3Tools\VRCAvatarConverterTo3\Editor\Plugins\YamlDotNet\Serialization\StreamFragment.cs" />
+    <Compile Include="Assets\VRCAvatars3Tools\VRCAvatarConverterTo3\Editor\Plugins\YamlDotNet\Serialization\TagMappings.cs" />
+    <Compile Include="Assets\VRCAvatars3Tools\VRCAvatarConverterTo3\Editor\Plugins\YamlDotNet\Serialization\TypeInspectors\CachedTypeInspector.cs" />
+    <Compile Include="Assets\VRCAvatars3Tools\VRCAvatarConverterTo3\Editor\Plugins\YamlDotNet\Serialization\TypeInspectors\NamingConventionTypeInspector.cs" />
+    <Compile Include="Assets\VRCAvatars3Tools\VRCAvatarConverterTo3\Editor\Plugins\YamlDotNet\Serialization\TypeInspectors\ReadableAndWritablePropertiesTypeInspector.cs" />
+    <Compile Include="Assets\VRCAvatars3Tools\VRCAvatarConverterTo3\Editor\Plugins\YamlDotNet\Serialization\TypeInspectors\ReadablePropertiesTypeInspector.cs" />
+    <Compile Include="Assets\VRCAvatars3Tools\VRCAvatarConverterTo3\Editor\Plugins\YamlDotNet\Serialization\TypeInspectors\TypeInspectorSkeleton.cs" />
+    <Compile Include="Assets\VRCAvatars3Tools\VRCAvatarConverterTo3\Editor\Plugins\YamlDotNet\Serialization\TypeResolvers\DynamicTypeResolver.cs" />
+    <Compile Include="Assets\VRCAvatars3Tools\VRCAvatarConverterTo3\Editor\Plugins\YamlDotNet\Serialization\TypeResolvers\StaticTypeResolver.cs" />
+    <Compile Include="Assets\VRCAvatars3Tools\VRCAvatarConverterTo3\Editor\Plugins\YamlDotNet\Serialization\Utilities\IPostDeserializationCallback.cs" />
+    <Compile Include="Assets\VRCAvatars3Tools\VRCAvatarConverterTo3\Editor\Plugins\YamlDotNet\Serialization\Utilities\ObjectAnchorCollection.cs" />
+    <Compile Include="Assets\VRCAvatars3Tools\VRCAvatarConverterTo3\Editor\Plugins\YamlDotNet\Serialization\Utilities\ReflectionUtility.cs" />
+    <Compile Include="Assets\VRCAvatars3Tools\VRCAvatarConverterTo3\Editor\Plugins\YamlDotNet\Serialization\Utilities\SerializerState.cs" />
+    <Compile Include="Assets\VRCAvatars3Tools\VRCAvatarConverterTo3\Editor\Plugins\YamlDotNet\Serialization\Utilities\StringExtensions.cs" />
+    <Compile Include="Assets\VRCAvatars3Tools\VRCAvatarConverterTo3\Editor\Plugins\YamlDotNet\Serialization\Utilities\TypeConverter.cs" />
+    <Compile Include="Assets\VRCAvatars3Tools\VRCAvatarConverterTo3\Editor\Plugins\YamlDotNet\Serialization\ValueDeserializers\AliasValueDeserializer.cs" />
+    <Compile Include="Assets\VRCAvatars3Tools\VRCAvatarConverterTo3\Editor\Plugins\YamlDotNet\Serialization\ValueDeserializers\NodeValueDeserializer.cs" />
+    <Compile Include="Assets\VRCAvatars3Tools\VRCAvatarConverterTo3\Editor\Plugins\YamlDotNet\Serialization\YamlAttributeOverrides.cs" />
+    <Compile Include="Assets\VRCAvatars3Tools\VRCAvatarConverterTo3\Editor\Plugins\YamlDotNet\Serialization\YamlAttributeOverridesInspector.cs" />
+    <Compile Include="Assets\VRCAvatars3Tools\VRCAvatarConverterTo3\Editor\Plugins\YamlDotNet\Serialization\YamlAttributesTypeInspector.cs" />
+    <Compile Include="Assets\VRCAvatars3Tools\VRCAvatarConverterTo3\Editor\Plugins\YamlDotNet\Serialization\YamlFormatter.cs" />
+    <Compile Include="Assets\VRCAvatars3Tools\VRCAvatarConverterTo3\Editor\Plugins\YamlDotNet\Serialization\YamlIgnoreAttribute.cs" />
+    <Compile Include="Assets\VRCAvatars3Tools\VRCAvatarConverterTo3\Editor\Plugins\YamlDotNet\Serialization\YamlMember.cs" />
+    <Compile Include="Assets\VRCAvatars3Tools\VRCAvatarConverterTo3\Editor\VRCAvatarConverterTo3.cs" />
+    <Compile Include="Assets\VRCAvatars3Tools\VRCAvatarConverterTo3\Editor\VRCAvatarDescripterDeserializedObject.cs" />
     <Compile Include="Assets\VRCSDK\Dependencies\Oculus\Spatializer\Editor\ONSPAudioSourceEditor.cs" />
     <Compile Include="Assets\VRCSDK\Dependencies\VRChat\Editor\Components\ApiCacheEditor.cs" />
     <Compile Include="Assets\VRCSDK\Dependencies\VRChat\Editor\Components\AutoAddSpatialAudioComponents.cs" />
@@ -124,6 +324,10 @@
     <Compile Include="Assets\VRCSDK\SDK3A\Editor\SDK3AImportFix.cs" />
     <Compile Include="Assets\VRCSDK\SDK3A\Editor\VRCSdkControlPanelAvatarBuilder3A.cs" />
     <Compile Include="Assets\VRCSDK\Sample Assets\Editor\RealtimeEmissiveGammaGUI.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\VRCAvatars3Tools\VRCAvatarConverterTo3\Editor\Plugins\YamlDotNet\Readme.txt" />
+    <None Include="Assets\VRCAvatars3Tools\VRCAvatarConverterTo3\Editor\Plugins\YamlDotNet\YamlDotNet.license.txt" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
@@ -321,6 +525,72 @@
     <Reference Include="UnityEditor.Android.Extensions">
       <HintPath>D:\Unity\2019.4.31f1\Editor\Data\PlaybackEngines\AndroidPlayer\UnityEditor.Android.Extensions.dll</HintPath>
     </Reference>
+    <Reference Include="Blake2Sharp">
+      <HintPath>Assets\VRCSDK\Dependencies\librsync\Blake2Sharp.dll</HintPath>
+    </Reference>
+    <Reference Include="librsync.net">
+      <HintPath>Assets\VRCSDK\Dependencies\librsync\librsync.net.dll</HintPath>
+    </Reference>
+    <Reference Include="Collections.Pooled">
+      <HintPath>Assets\VRCSDK\Dependencies\Managed\Collections.Pooled.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Buffers">
+      <HintPath>Assets\VRCSDK\Dependencies\Managed\System.Buffers.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Collections.Immutable">
+      <HintPath>Assets\VRCSDK\Dependencies\Managed\System.Collections.Immutable.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Memory">
+      <HintPath>Assets\VRCSDK\Dependencies\Managed\System.Memory.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Numerics.Vectors">
+      <HintPath>Assets\VRCSDK\Dependencies\Managed\System.Numerics.Vectors.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.CompilerServices.Unsafe">
+      <HintPath>Assets\VRCSDK\Dependencies\Managed\System.Runtime.CompilerServices.Unsafe.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Threading.Tasks.Extensions">
+      <HintPath>Assets\VRCSDK\Dependencies\Managed\System.Threading.Tasks.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="VRC.Collections">
+      <HintPath>Assets\VRCSDK\Dependencies\Managed\VRC.Collections.dll</HintPath>
+    </Reference>
+    <Reference Include="VRC.Dynamics">
+      <HintPath>Assets\VRCSDK\Plugins\VRC.Dynamics.dll</HintPath>
+    </Reference>
+    <Reference Include="VRC.SDK3.Dynamics.Contact">
+      <HintPath>Assets\VRCSDK\Plugins\VRC.SDK3.Dynamics.Contact.dll</HintPath>
+    </Reference>
+    <Reference Include="VRC.SDK3.Dynamics.Contact.Editor">
+      <HintPath>Assets\VRCSDK\Plugins\VRC.SDK3.Dynamics.Contact.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="VRC.SDK3.Dynamics.PhysBone">
+      <HintPath>Assets\VRCSDK\Plugins\VRC.SDK3.Dynamics.PhysBone.dll</HintPath>
+    </Reference>
+    <Reference Include="VRC.SDK3.Dynamics.PhysBone.Editor">
+      <HintPath>Assets\VRCSDK\Plugins\VRC.SDK3.Dynamics.PhysBone.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="VRC.Utility">
+      <HintPath>Assets\VRCSDK\Plugins\VRC.Utility.dll</HintPath>
+    </Reference>
+    <Reference Include="VRCCore-Editor">
+      <HintPath>Assets\VRCSDK\Plugins\VRCCore-Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="VRCSDK3A-Editor">
+      <HintPath>Assets\VRCSDK\Plugins\VRCSDK3A-Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="VRCSDK3A">
+      <HintPath>Assets\VRCSDK\Plugins\VRCSDK3A.dll</HintPath>
+    </Reference>
+    <Reference Include="VRCSDKBase-Editor">
+      <HintPath>Assets\VRCSDK\Plugins\VRCSDKBase-Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="VRCSDKBase">
+      <HintPath>Assets\VRCSDK\Plugins\VRCSDKBase.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Burst.Unsafe">
+      <HintPath>Library\PackageCache\com.unity.burst@1.4.11\Unity.Burst.Unsafe.dll</HintPath>
+    </Reference>
     <Reference Include="log4netPlastic">
       <HintPath>Library\PackageCache\com.unity.collab-proxy@1.10.2\Lib\Editor\PlasticSCM\log4netPlastic.dll</HintPath>
     </Reference>
@@ -332,72 +602,6 @@
     </Reference>
     <Reference Include="unityplastic">
       <HintPath>Library\PackageCache\com.unity.collab-proxy@1.10.2\Lib\Editor\PlasticSCM\unityplastic.dll</HintPath>
-    </Reference>
-    <Reference Include="VRC.SDK3.Dynamics.PhysBone">
-      <HintPath>Assets\VRCSDK\Plugins\VRC.SDK3.Dynamics.PhysBone.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Threading.Tasks.Extensions">
-      <HintPath>Assets\VRCSDK\Dependencies\Managed\System.Threading.Tasks.Extensions.dll</HintPath>
-    </Reference>
-    <Reference Include="VRCSDK3A-Editor">
-      <HintPath>Assets\VRCSDK\Plugins\VRCSDK3A-Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="librsync.net">
-      <HintPath>Assets\VRCSDK\Dependencies\librsync\librsync.net.dll</HintPath>
-    </Reference>
-    <Reference Include="VRC.SDK3.Dynamics.Contact">
-      <HintPath>Assets\VRCSDK\Plugins\VRC.SDK3.Dynamics.Contact.dll</HintPath>
-    </Reference>
-    <Reference Include="Collections.Pooled">
-      <HintPath>Assets\VRCSDK\Dependencies\Managed\Collections.Pooled.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Collections.Immutable">
-      <HintPath>Assets\VRCSDK\Dependencies\Managed\System.Collections.Immutable.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Numerics.Vectors">
-      <HintPath>Assets\VRCSDK\Dependencies\Managed\System.Numerics.Vectors.dll</HintPath>
-    </Reference>
-    <Reference Include="VRCSDK3A">
-      <HintPath>Assets\VRCSDK\Plugins\VRCSDK3A.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Buffers">
-      <HintPath>Assets\VRCSDK\Dependencies\Managed\System.Buffers.dll</HintPath>
-    </Reference>
-    <Reference Include="VRC.Dynamics">
-      <HintPath>Assets\VRCSDK\Plugins\VRC.Dynamics.dll</HintPath>
-    </Reference>
-    <Reference Include="VRC.Utility">
-      <HintPath>Assets\VRCSDK\Plugins\VRC.Utility.dll</HintPath>
-    </Reference>
-    <Reference Include="VRC.Collections">
-      <HintPath>Assets\VRCSDK\Dependencies\Managed\VRC.Collections.dll</HintPath>
-    </Reference>
-    <Reference Include="VRCSDKBase">
-      <HintPath>Assets\VRCSDK\Plugins\VRCSDKBase.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Runtime.CompilerServices.Unsafe">
-      <HintPath>Assets\VRCSDK\Dependencies\Managed\System.Runtime.CompilerServices.Unsafe.dll</HintPath>
-    </Reference>
-    <Reference Include="VRC.SDK3.Dynamics.PhysBone.Editor">
-      <HintPath>Assets\VRCSDK\Plugins\VRC.SDK3.Dynamics.PhysBone.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="VRCSDKBase-Editor">
-      <HintPath>Assets\VRCSDK\Plugins\VRCSDKBase-Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="VRC.SDK3.Dynamics.Contact.Editor">
-      <HintPath>Assets\VRCSDK\Plugins\VRC.SDK3.Dynamics.Contact.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Blake2Sharp">
-      <HintPath>Assets\VRCSDK\Dependencies\librsync\Blake2Sharp.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Memory">
-      <HintPath>Assets\VRCSDK\Dependencies\Managed\System.Memory.dll</HintPath>
-    </Reference>
-    <Reference Include="VRCCore-Editor">
-      <HintPath>Assets\VRCSDK\Plugins\VRCCore-Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.Burst.Unsafe">
-      <HintPath>Library\PackageCache\com.unity.burst@1.4.11\Unity.Burst.Unsafe.dll</HintPath>
     </Reference>
     <Reference Include="nunit.framework">
       <HintPath>Library\PackageCache\com.unity.ext.nunit@1.0.6\net35\unity-custom\nunit.framework.dll</HintPath>
@@ -768,8 +972,14 @@
     <Reference Include="Unity.Timeline.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.Timeline.Editor.dll</HintPath>
     </Reference>
+    <Reference Include="Unity.Burst">
+      <HintPath>Library\ScriptAssemblies\Unity.Burst.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.VSCode.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.VSCode.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Burst.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.Burst.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll</HintPath>
@@ -783,8 +993,14 @@
     <Reference Include="Unity.Rider.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.Rider.Editor.dll</HintPath>
     </Reference>
+    <Reference Include="Unity.Mathematics">
+      <HintPath>Library\ScriptAssemblies\Unity.Mathematics.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.VisualStudio.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Mathematics.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.Mathematics.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro">
       <HintPath>Library\ScriptAssemblies\Unity.TextMeshPro.dll</HintPath>
@@ -794,18 +1010,6 @@
     </Reference>
     <Reference Include="UnityEditor.UI">
       <HintPath>Library\ScriptAssemblies\UnityEditor.UI.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.Burst">
-      <HintPath>Library\ScriptAssemblies\Unity.Burst.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.Burst.Editor">
-      <HintPath>Library\ScriptAssemblies\Unity.Burst.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.Mathematics">
-      <HintPath>Library\ScriptAssemblies\Unity.Mathematics.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.Mathematics.Editor">
-      <HintPath>Library\ScriptAssemblies\Unity.Mathematics.Editor.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
