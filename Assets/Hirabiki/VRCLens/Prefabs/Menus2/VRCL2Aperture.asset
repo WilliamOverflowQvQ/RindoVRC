@@ -1,0 +1,86 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -340790334, guid: 67cc4cb7839cd3741b63733d5adf0442, type: 3}
+  m_Name: VRCL2Aperture
+  m_EditorClassIdentifier: 
+  controls:
+  - name: '    '
+    icon: {fileID: 2800000, guid: 3a0548b235fc40a48aeb362bc59e9910, type: 3}
+    type: 101
+    parameter:
+      name: 
+    value: 1
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters: []
+    labels: []
+  - name: Increase
+    icon: {fileID: 2800000, guid: 51ddaab4a17dd51499a961c49841b4a9, type: 3}
+    type: 101
+    parameter:
+      name: VRCLFeatureToggle
+    value: 193
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters: []
+    labels: []
+  - name: Sensor Type
+    icon: {fileID: 2800000, guid: 62af1f4e2479e8c4e932a652a9e6a629, type: 3}
+    type: 103
+    parameter:
+      name: 
+    value: 1
+    style: 0
+    subMenu: {fileID: 11400000, guid: a0d78a56906c61a4ea4c5d624cce0130, type: 2}
+    subParameters: []
+    labels: []
+  - name: DoF Mode
+    icon: {fileID: 2800000, guid: 413cce7ff435b31478ef4ec69b355cb4, type: 3}
+    type: 101
+    parameter:
+      name: VRCLFeatureToggle
+    value: 11
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters: []
+    labels: []
+  - name: Av Dial
+    icon: {fileID: 2800000, guid: 3a9a3028cc9d48044b8dafe5d828ed61, type: 3}
+    type: 203
+    parameter:
+      name: 
+    value: 1
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters:
+    - name: VRCLApertureRadial
+    labels: []
+  - name: Decrease
+    icon: {fileID: 2800000, guid: dbfbe4164da5b1c47a30af6e4e2a8c46, type: 3}
+    type: 101
+    parameter:
+      name: VRCLFeatureToggle
+    value: 192
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters: []
+    labels: []
+  - name: Bokeh Shape
+    icon: {fileID: 2800000, guid: 3a9a3028cc9d48044b8dafe5d828ed61, type: 3}
+    type: 103
+    parameter:
+      name: 
+    value: 1
+    style: 0
+    subMenu: {fileID: 11400000, guid: ce4f9f38417c44744a6ca57f40a6e4ca, type: 2}
+    subParameters: []
+    labels: []

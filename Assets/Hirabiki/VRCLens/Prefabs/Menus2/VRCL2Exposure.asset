@@ -1,0 +1,86 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -340790334, guid: 67cc4cb7839cd3741b63733d5adf0442, type: 3}
+  m_Name: VRCL2Exposure
+  m_EditorClassIdentifier: 
+  controls:
+  - name: EV Dial
+    icon: {fileID: 2800000, guid: 9fc10915cdfe4ee4599613bd1fa2f1a2, type: 3}
+    type: 203
+    parameter:
+      name: 
+    value: 1
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters:
+    - name: VRCLExposureRadial
+    labels: []
+  - name: '    '
+    icon: {fileID: 2800000, guid: e8625711603871b49929774c53405113, type: 3}
+    type: 101
+    parameter:
+      name: VRCLFeatureToggle
+    value: 110
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters: []
+    labels: []
+  - name: Picture Style
+    icon: {fileID: 2800000, guid: 30891e000b76dfc4db977fc2238911a0, type: 3}
+    type: 103
+    parameter:
+      name: 
+    value: 1
+    style: 0
+    subMenu: {fileID: 11400000, guid: 7d7c252d884d99f4b96742d90a5a991a, type: 2}
+    subParameters: []
+    labels: []
+  - name: Reset
+    icon: {fileID: 2800000, guid: ab09fb2c56e214947a0868663e085135, type: 3}
+    type: 101
+    parameter:
+      name: VRCLFeatureToggle
+    value: 109
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters: []
+    labels: []
+  - name: Auto Exposure
+    icon: {fileID: 2800000, guid: b2af6a78068df014aadfb0721bfb9cc2, type: 3}
+    type: 101
+    parameter:
+      name: VRCLFeatureToggle
+    value: 12
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters: []
+    labels: []
+  - name: '    '
+    icon: {fileID: 2800000, guid: 46c3acca1350107459c1b8f2d43d22e6, type: 3}
+    type: 101
+    parameter:
+      name: VRCLFeatureToggle
+    value: 108
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters: []
+    labels: []
+  - name: White Bal.
+    icon: {fileID: 2800000, guid: 7f7a4ba8bef9a9a46b562097b959b05f, type: 3}
+    type: 103
+    parameter:
+      name: 
+    value: 1
+    style: 0
+    subMenu: {fileID: 11400000, guid: 74ab25ce542e4db468add8b803e9041c, type: 2}
+    subParameters: []
+    labels: []

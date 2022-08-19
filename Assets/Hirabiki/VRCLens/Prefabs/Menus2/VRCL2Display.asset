@@ -1,0 +1,95 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -340790334, guid: 67cc4cb7839cd3741b63733d5adf0442, type: 3}
+  m_Name: VRCL2Display
+  m_EditorClassIdentifier: 
+  controls:
+  - name: '    '
+    icon: {fileID: 2800000, guid: 3a0548b235fc40a48aeb362bc59e9910, type: 3}
+    type: 101
+    parameter:
+      name: 
+    value: 1
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters: []
+    labels: []
+  - name: V. Horizon
+    icon: {fileID: 2800000, guid: eb60138aa38943d4f8032d062b63b0d3, type: 3}
+    type: 101
+    parameter:
+      name: VRCLFeatureToggle
+    value: 3
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters: []
+    labels: []
+  - name: Grid
+    icon: {fileID: 2800000, guid: 95b7917b51d289041a5a57c2320eed39, type: 3}
+    type: 101
+    parameter:
+      name: VRCLFeatureToggle
+    value: 2
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters: []
+    labels: []
+  - name: Show/Hide
+    icon: {fileID: 2800000, guid: 4a2641a8e7af2a240a15b0b85e91de73, type: 3}
+    type: 101
+    parameter:
+      name: VRCLFeatureToggle
+    value: 9
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters: []
+    labels: []
+  - name: Monitor
+    icon: {fileID: 2800000, guid: 2f7b3d776bbd7c048aac11af23896bc7, type: 3}
+    type: 101
+    parameter:
+      name: VRCLFeatureToggle
+    value: 226
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters: []
+    labels: []
+  - name: Move HUD
+    icon: {fileID: 2800000, guid: 2f7b3d776bbd7c048aac11af23896bc7, type: 3}
+    type: 201
+    parameter:
+      name: VRCLFeatureToggle
+    value: 210
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters:
+    - name: VRCFaceBlendH
+    - name: VRCFaceBlendV
+    labels:
+    - name: TOP
+      icon: {fileID: 0}
+    - name: RIGHT
+      icon: {fileID: 0}
+    - name: BOTTOM
+      icon: {fileID: 0}
+    - name: LEFT
+      icon: {fileID: 0}
+  - name: Focus Peaking
+    icon: {fileID: 2800000, guid: ed242b06dff5970468f606a7295313ab, type: 3}
+    type: 103
+    parameter:
+      name: 
+    value: 1
+    style: 0
+    subMenu: {fileID: 11400000, guid: efa4888e9d6ca434c8c617d1e0cb75bf, type: 2}
+    subParameters: []
+    labels: []

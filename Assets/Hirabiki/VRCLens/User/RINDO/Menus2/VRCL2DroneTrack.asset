@@ -1,0 +1,75 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -340790334, guid: 67cc4cb7839cd3741b63733d5adf0442, type: 3}
+  m_Name: VRCL2DroneTrack
+  m_EditorClassIdentifier: 
+  controls:
+  - name: Track Pivot
+    icon: {fileID: 2800000, guid: 4e20edad9ad651d42a7aa10b82f22e6f, type: 3}
+    type: 101
+    parameter:
+      name: VRCLFeatureToggle
+    value: 242
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters: []
+    labels: []
+  - name: Move Pivot
+    icon: {fileID: 2800000, guid: d3f49437efab3c64997c4278c2449e76, type: 3}
+    type: 201
+    parameter:
+      name: VRCLFeatureToggle
+    value: 214
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters:
+    - name: VRCFaceBlendH
+    - name: VRCFaceBlendV
+    labels:
+    - name: 
+      icon: {fileID: 0}
+    - name: 
+      icon: {fileID: 0}
+    - name: 
+      icon: {fileID: 0}
+    - name: 
+      icon: {fileID: 0}
+  - name: Drop
+    icon: {fileID: 2800000, guid: ab94b7a3a7fe5b447b1fb51b4abb855f, type: 3}
+    type: 101
+    parameter:
+      name: VRCLFeatureToggle
+    value: 251
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters: []
+    labels: []
+  - name: Drop Pivot
+    icon: {fileID: 2800000, guid: 744a189b35f14284f90a5ffa10885879, type: 3}
+    type: 101
+    parameter:
+      name: VRCLFeatureToggle
+    value: 253
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters: []
+    labels: []
+  - name: Track Self
+    icon: {fileID: 2800000, guid: 9e88bb1bba5ffed4ca71140d9b79fecc, type: 3}
+    type: 101
+    parameter:
+      name: VRCLFeatureToggle
+    value: 241
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters: []
+    labels: []

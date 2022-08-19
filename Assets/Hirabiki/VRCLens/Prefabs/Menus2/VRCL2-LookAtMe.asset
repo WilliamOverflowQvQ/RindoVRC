@@ -1,0 +1,85 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -340790334, guid: 67cc4cb7839cd3741b63733d5adf0442, type: 3}
+  m_Name: VRCL2-LookAtMe
+  m_EditorClassIdentifier: 
+  controls:
+  - name: Look At Face
+    icon: {fileID: 2800000, guid: 55e817dd2fca77444938cc429dddc42c, type: 3}
+    type: 101
+    parameter:
+      name: VRCLFeatureToggle
+    value: 127
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters: []
+    labels: []
+  - name: Look Up
+    icon: {fileID: 2800000, guid: d409e5263662b4641943de27e05d81b2, type: 3}
+    type: 101
+    parameter:
+      name: VRCLFeatureToggle
+    value: 128
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters: []
+    labels: []
+  - name: '    '
+    icon: {fileID: 2800000, guid: c52349f9f2c6dad4481b0bb812cf75f2, type: 3}
+    type: 101
+    parameter:
+      name: VRCLFeatureToggle
+    value: 129
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters: []
+    labels: []
+  - name: Track Self
+    icon: {fileID: 2800000, guid: 9e88bb1bba5ffed4ca71140d9b79fecc, type: 3}
+    type: 101
+    parameter:
+      name: VRCLFeatureToggle
+    value: 241
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters: []
+    labels: []
+  - name: '    '
+    icon: {fileID: 2800000, guid: c52349f9f2c6dad4481b0bb812cf75f2, type: 3}
+    type: 101
+    parameter:
+      name: VRCLFeatureToggle
+    value: 130
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters: []
+    labels: []
+  - name: Look Down
+    icon: {fileID: 2800000, guid: a7a80ff90b6f21d4db07113b58f27a7f, type: 3}
+    type: 101
+    parameter:
+      name: VRCLFeatureToggle
+    value: 131
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters: []
+    labels: []
+  - name: Look At Feet
+    icon: {fileID: 2800000, guid: a15673138daf8b540be6f7c775a8f61b, type: 3}
+    type: 101
+    parameter:
+      name: VRCLFeatureToggle
+    value: 132
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters: []
+    labels: []

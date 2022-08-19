@@ -1,0 +1,96 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -340790334, guid: 67cc4cb7839cd3741b63733d5adf0442, type: 3}
+  m_Name: VRCL2Root
+  m_EditorClassIdentifier: 
+  controls:
+  - name: Enable
+    icon: {fileID: 2800000, guid: 05fd0028e468db74ab97c9d5e7ba2e43, type: 3}
+    type: 101
+    parameter:
+      name: VRCLFeatureToggle
+    value: 254
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters: []
+    labels: []
+  - name: Advanced
+    icon: {fileID: 2800000, guid: 014a95dc906dc0745a3637a2e79338bf, type: 3}
+    type: 103
+    parameter:
+      name: 
+    value: 1
+    style: 0
+    subMenu: {fileID: 11400000, guid: 8311345698ec5604d9efc3a8d7f23cf6, type: 2}
+    subParameters: []
+    labels: []
+  - name: Zoom
+    icon: {fileID: 2800000, guid: 16a1a4b292373a44b8643326bbbb7266, type: 3}
+    type: 203
+    parameter:
+      name: 
+    value: 1
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters:
+    - name: VRCLZoomRadial
+    labels: []
+  - name: Drone
+    icon: {fileID: 2800000, guid: 6ce655f45420a93469d7d2f5833dd35f, type: 3}
+    type: 103
+    parameter:
+      name: 
+    value: 251
+    style: 0
+    subMenu: {fileID: 11400000, guid: 85e2a8bccc12614449bc39061d03d120, type: 2}
+    subParameters: []
+    labels: []
+  - name: Aperture
+    icon: {fileID: 2800000, guid: 3a9a3028cc9d48044b8dafe5d828ed61, type: 3}
+    type: 103
+    parameter:
+      name: 
+    value: 1
+    style: 0
+    subMenu: {fileID: 11400000, guid: c55d2bd29afc8e0448817bcadecee71c, type: 2}
+    subParameters: []
+    labels: []
+  - name: Settings
+    icon: {fileID: 2800000, guid: 30891e000b76dfc4db977fc2238911a0, type: 3}
+    type: 103
+    parameter:
+      name: 
+    value: 1
+    style: 0
+    subMenu: {fileID: 11400000, guid: e7c4121e37216f04295420532c35de84, type: 2}
+    subParameters: []
+    labels: []
+  - name: Focus
+    icon: {fileID: 2800000, guid: 503de45108309444a91d445bd4d20723, type: 3}
+    type: 103
+    parameter:
+      name: 
+    value: 1
+    style: 0
+    subMenu: {fileID: 11400000, guid: a3dd06d69cee8d045a59941b9e47bce2, type: 2}
+    subParameters: []
+    labels: []
+  - name: Disable
+    icon: {fileID: 2800000, guid: 8f8ea2dd46eebcd4ba03af6fdc447415, type: 3}
+    type: 101
+    parameter:
+      name: VRCLFeatureToggle
+    value: 255
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters: []
+    labels: []

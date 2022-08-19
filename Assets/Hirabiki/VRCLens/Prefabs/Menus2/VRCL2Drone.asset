@@ -1,0 +1,105 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -340790334, guid: 67cc4cb7839cd3741b63733d5adf0442, type: 3}
+  m_Name: VRCL2Drone
+  m_EditorClassIdentifier: 
+  controls:
+  - name: Hand-Rotate
+    icon: {fileID: 2800000, guid: b4542afd15e70414b99cca48b6b9a322, type: 3}
+    type: 101
+    parameter:
+      name: VRCLFeatureToggle
+    value: 250
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters: []
+    labels: []
+  - name: Change Angle
+    icon: {fileID: 2800000, guid: b57de695d8ec9d24f80176f41e5ef8a4, type: 3}
+    type: 201
+    parameter:
+      name: VRCLFeatureToggle
+    value: 213
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters:
+    - name: VRCFaceBlendH
+    - name: VRCFaceBlendV
+    labels:
+    - name: UP
+      icon: {fileID: 0}
+    - name: RIGHT
+      icon: {fileID: 0}
+    - name: DOWN
+      icon: {fileID: 0}
+    - name: LEFT
+      icon: {fileID: 0}
+  - name: Tracking
+    icon: {fileID: 2800000, guid: 6ce655f45420a93469d7d2f5833dd35f, type: 3}
+    type: 103
+    parameter:
+      name: 
+    value: 1
+    style: 0
+    subMenu: {fileID: 11400000, guid: 44a45da5f2eb320458e8d0a94f7d62ea, type: 2}
+    subParameters: []
+    labels: []
+  - name: Drop
+    icon: {fileID: 2800000, guid: ab94b7a3a7fe5b447b1fb51b4abb855f, type: 3}
+    type: 101
+    parameter:
+      name: VRCLFeatureToggle
+    value: 251
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters: []
+    labels: []
+  - name: Move Camera
+    icon: {fileID: 2800000, guid: d32d7342751924a48a0f3e4ec90337f2, type: 3}
+    type: 201
+    parameter:
+      name: VRCLFeatureToggle
+    value: 212
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters:
+    - name: VRCFaceBlendH
+    - name: VRCFaceBlendV
+    labels:
+    - name: FORWARD
+      icon: {fileID: 0}
+    - name: RIGHT
+      icon: {fileID: 0}
+    - name: BACK
+      icon: {fileID: 0}
+    - name: LEFT
+      icon: {fileID: 0}
+  - name: Track Self...
+    icon: {fileID: 2800000, guid: 9e88bb1bba5ffed4ca71140d9b79fecc, type: 3}
+    type: 103
+    parameter:
+      name: 
+    value: 1
+    style: 0
+    subMenu: {fileID: 11400000, guid: a60e6a14fd3bd124bbf78450256abd22, type: 2}
+    subParameters: []
+    labels: []
+  - name: '    '
+    icon: {fileID: 2800000, guid: 3a0548b235fc40a48aeb362bc59e9910, type: 3}
+    type: 101
+    parameter:
+      name: 
+    value: 1
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters: []
+    labels: []

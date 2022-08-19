@@ -1,0 +1,86 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -340790334, guid: 67cc4cb7839cd3741b63733d5adf0442, type: 3}
+  m_Name: VRCL2Advanced-P2
+  m_EditorClassIdentifier: 
+  controls:
+  - name: Avatar-Drop
+    icon: {fileID: 2800000, guid: 63f4410572e20f54abd13eb3e253a48e, type: 3}
+    type: 101
+    parameter:
+      name: VRCLFeatureToggle
+    value: 252
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters: []
+    labels: []
+  - name: 3D Mode
+    icon: {fileID: 2800000, guid: 36cdea0f94013614a8f6530c9491ebeb, type: 3}
+    type: 101
+    parameter:
+      name: VRCLFeatureToggle
+    value: 15
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters: []
+    labels: []
+  - name: Zoom
+    icon: {fileID: 2800000, guid: 16a1a4b292373a44b8643326bbbb7266, type: 3}
+    type: 203
+    parameter:
+      name: 
+    value: 1
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters:
+    - name: VRCLZoomRadial
+    labels: []
+  - name: Mount Swap
+    icon: {fileID: 2800000, guid: bffcf82305c9c3447b7652881ec31589, type: 3}
+    type: 101
+    parameter:
+      name: VRCLFeatureToggle
+    value: 223
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters: []
+    labels: []
+  - name: Aperture
+    icon: {fileID: 2800000, guid: 3a9a3028cc9d48044b8dafe5d828ed61, type: 3}
+    type: 103
+    parameter:
+      name: 
+    value: 224
+    style: 0
+    subMenu: {fileID: 11400000, guid: c55d2bd29afc8e0448817bcadecee71c, type: 2}
+    subParameters: []
+    labels: []
+  - name: Hide Lens
+    icon: {fileID: 2800000, guid: ccb87fba091ffc7468e27ea0d95c808e, type: 3}
+    type: 101
+    parameter:
+      name: VRCLFeatureToggle
+    value: 225
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters: []
+    labels: []
+  - name: '    '
+    icon: {fileID: 2800000, guid: 3a0548b235fc40a48aeb362bc59e9910, type: 3}
+    type: 101
+    parameter:
+      name: 
+    value: 1
+    style: 0
+    subMenu: {fileID: 11400000, guid: f17d5f0e5a53e1f4798daf25ec8929a0, type: 2}
+    subParameters: []
+    labels: []

@@ -1,0 +1,168 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: CamMaterial
+  m_Shader: {fileID: 4800000, guid: 422d3865cd3e4d14c81a7aa0d66fa043, type: 3}
+  m_ShaderKeywords: DEPTH_OF_FIELD
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _AuxExpTex:
+        m_Texture: {fileID: 8400000, guid: 235328f7be297e348b157d9733371146, type: 2}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _AuxFocusTex:
+        m_Texture: {fileID: 8400000, guid: 2f31b42433498c34fb8a18e6a35c592a, type: 2}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _AuxTex:
+        m_Texture: {fileID: 8400000, guid: 1c151c1bfe0a0a44d829ef1c04f53124, type: 2}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _BumpMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DepthAvatarTex:
+        m_Texture: {fileID: 8400000, guid: 1d19ada940acce442b410e3fa816e93d, type: 2}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DepthTex:
+        m_Texture: {fileID: 8400000, guid: a757b1e3eaf17a0428a73ba8457953a5, type: 2}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailAlbedoMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailMask:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailNormalMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _EmissionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _FocusTex:
+        m_Texture: {fileID: 2800000, guid: 52538f599ff166d47b08de9d235a1dc2, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: 3a0548b235fc40a48aeb362bc59e9910, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MetallicGlossMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _NumTex:
+        m_Texture: {fileID: 2800000, guid: 8ba90a8d8df75b044ae212125dcefc48, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _OcclusionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ParallaxMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _PreviewTex:
+        m_Texture: {fileID: 8400000, guid: 74e0b541acc1e3c4ab56d6ac7445a7d6, type: 2}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _RenderTex:
+        m_Texture: {fileID: 8400000, guid: cf0e8f399594608438a111b0f7f3caf2, type: 2}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SymbolTex:
+        m_Texture: {fileID: 2800000, guid: 2e4fe03b9740f8f44ba52bb444093768, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SymbolTex0:
+        m_Texture: {fileID: 2800000, guid: 2e4fe03b9740f8f44ba52bb444093768, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SymbolTex1:
+        m_Texture: {fileID: 2800000, guid: 9efae9bc81718bc44b2dd8b436a240c5, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _AperturePriority: 0
+    - _BlurSamples: 228
+    - _BumpScale: 1
+    - _Cutoff: 0.5
+    - _DetailNormalMapScale: 1
+    - _DoFStrength: 2.8
+    - _DoSkipDoF: 1
+    - _DstBlend: 0
+    - _EnableDoF: 1
+    - _ExposureMode: 1
+    - _ExposureValue: 0
+    - _FocalLength: 24
+    - _FocusDistance: 0.5
+    - _FocusMoveSens: 1
+    - _FocusOffsetH: 0
+    - _FocusOffsetV: 0
+    - _GlossMapScale: 1
+    - _Glossiness: 0.5
+    - _GlossyReflections: 1
+    - _ImageFilter: 0
+    - _IsAutoFocus: 1
+    - _IsDesktopMode: 0
+    - _IsDirectStream: 0
+    - _IsDoFColorAccent: 0
+    - _IsDoFEffect0: 0
+    - _IsExternalFocus: 0
+    - _IsHLG: 1
+    - _IsImageStabilize: 0
+    - _IsSideBySide3D: 0
+    - _Metallic: 0
+    - _Mode: 0
+    - _OcclusionStrength: 1
+    - _Parallax: 0.02
+    - _PreviewOrientation: 0
+    - _PreviewPosMode: 0
+    - _RTMaxBlur: 30
+    - _RTRadScale: 0.8
+    - _SCurveLerp: 0
+    - _SensorScale: 1
+    - _SensorType: 0
+    - _ShowFocusPeeking: 0
+    - _ShowLeveler: 0
+    - _ShowOverlay: 1
+    - _ShowRuleOfThirds: 0
+    - _ShowViewfinderOverlay: 0
+    - _ShowZebra: 0
+    - _SmoothnessTextureChannel: 0
+    - _SpecularHighlights: 1
+    - _SrcBlend: 1
+    - _TonemapLerp: 0
+    - _TonemapMode: 0
+    - _UVSec: 0
+    - _UseSeparateDepth: 1
+    - _WhiteBalance: 0
+    - _ZWrite: 1
+    m_Colors:
+    - _Color: {r: 1, g: 1, b: 1, a: 1}
+    - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
+    - _UJCq5AAE: {r: 0.3882353, g: 0.4509804, b: 0.6117647, a: 1}
+    - _VxcGJy2E: {r: 0.019607844, g: 0.03137255, b: 0.09019608, a: 1}
+    - _czv83php: {r: 0.29803923, g: 0.2, b: 0.14901961, a: 1}
+    - _kNrCXOQG: {r: 0.2627451, g: 0.21176471, b: 0.29803923, a: 0.4117647}

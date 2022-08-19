@@ -1,0 +1,85 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -340790334, guid: 67cc4cb7839cd3741b63733d5adf0442, type: 3}
+  m_Name: VRCL2-ManualFocus
+  m_EditorClassIdentifier: 
+  controls:
+  - name: Infinity
+    icon: {fileID: 2800000, guid: d7a32cc29b1df2b45be152fe3568c489, type: 3}
+    type: 101
+    parameter:
+      name: VRCLFeatureToggle
+    value: 122
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters: []
+    labels: []
+  - name: '    '
+    icon: {fileID: 2800000, guid: c52349f9f2c6dad4481b0bb812cf75f2, type: 3}
+    type: 101
+    parameter:
+      name: VRCLFeatureToggle
+    value: 121
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters: []
+    labels: []
+  - name: '    '
+    icon: {fileID: 2800000, guid: 51ddaab4a17dd51499a961c49841b4a9, type: 3}
+    type: 101
+    parameter:
+      name: VRCLFeatureToggle
+    value: 120
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters: []
+    labels: []
+  - name: Auto Focus
+    icon: {fileID: 2800000, guid: e00c5570244e77a499da767b421f5035, type: 3}
+    type: 101
+    parameter:
+      name: VRCLFeatureToggle
+    value: 119
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters: []
+    labels: []
+  - name: '    '
+    icon: {fileID: 2800000, guid: dbfbe4164da5b1c47a30af6e4e2a8c46, type: 3}
+    type: 101
+    parameter:
+      name: VRCLFeatureToggle
+    value: 118
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters: []
+    labels: []
+  - name: '   '
+    icon: {fileID: 2800000, guid: c52349f9f2c6dad4481b0bb812cf75f2, type: 3}
+    type: 101
+    parameter:
+      name: VRCLFeatureToggle
+    value: 117
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters: []
+    labels: []
+  - name: Macro
+    icon: {fileID: 2800000, guid: 0d94d078af0b6a94090b4a5e90a6e5eb, type: 3}
+    type: 101
+    parameter:
+      name: VRCLFeatureToggle
+    value: 116
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters: []
+    labels: []

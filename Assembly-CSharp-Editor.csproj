@@ -53,6 +53,7 @@
     <UnityVersion>2019.4.31f1</UnityVersion>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="Assets\Hirabiki\VRCLens\Editor\ConfigInspector.cs" />
     <Compile Include="Assets\Toon\Editor\CopyMaterialParameter.cs" />
     <Compile Include="Assets\Toon\Editor\RemoveUnusedMaterialProperties.cs" />
     <Compile Include="Assets\Toon\Editor\RemoveUnusedShaderKeywordsFromUTS2Material.cs" />
@@ -524,6 +525,9 @@
     </Reference>
     <Reference Include="UnityEditor.Android.Extensions">
       <HintPath>D:\Unity\2019.4.31f1\Editor\Data\PlaybackEngines\AndroidPlayer\UnityEditor.Android.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="Hirabiki-AV3-Managed">
+      <HintPath>Assets\Hirabiki\VRCLens\Resource\Hirabiki-AV3-Managed.dll</HintPath>
     </Reference>
     <Reference Include="Blake2Sharp">
       <HintPath>Assets\VRCSDK\Dependencies\librsync\Blake2Sharp.dll</HintPath>

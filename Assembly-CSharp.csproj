@@ -53,6 +53,10 @@
     <UnityVersion>2019.4.31f1</UnityVersion>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="Assets\Hirabiki\VRCLens\Lib\AnimatorCloner\AnimatorCloner.cs" />
+    <Compile Include="Assets\Hirabiki\VRCLens\Resource\VRCLensAssetManager.cs" />
+    <Compile Include="Assets\Hirabiki\VRCLens\Resource\VRCLensProfileManager.cs" />
+    <Compile Include="Assets\Hirabiki\VRCLens\Resource\VRCLensSetup.cs" />
     <Compile Include="Assets\VRCSDK\Dependencies\Oculus\Spatializer\Scripts\ONSPAudioSource.cs" />
     <Compile Include="Assets\VRCSDK\Dependencies\Oculus\Spatializer\Scripts\ONSPSettings.cs" />
     <Compile Include="Assets\VRCSDK\Dependencies\VRChat\Scripts\ApiFileHelper.cs" />
@@ -96,6 +100,7 @@
     <Compile Include="Assets\VRCSDK\SDK3A\Runtime\AvatarValidation.cs" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Assets\Hirabiki\VRCLens\Lib\HashWithoutSine\HashWithoutSine.cginc" />
     <None Include="Assets\Toon\Shader\Toon_DoubleShadeWithFeather_Mobile_TransClipping_StencilMask.shader" />
     <None Include="Assets\Toon\Shader\Toon_ShadingGradeMap_Mobile_StencilMask.shader" />
     <None Include="Assets\Toon\Shader\Tess\Toon_DoubleShadeWithFeather_Tess_Light_StencilMask.shader" />
@@ -105,6 +110,7 @@
     <None Include="Assets\VRCSDK\Plugins\VRCCore-Standalone.dll" />
     <None Include="Assets\VRCSDK\Sample Assets\Shaders\Mobile\VRChat-Mobile-Skybox.shader" />
     <None Include="Assets\Toon\Shader\Tess\Toon_DoubleShadeWithFeather_Clipping_Tess.shader" />
+    <None Include="Assets\Hirabiki\VRCLens\Resource\PivotIndicator.shader" />
     <None Include="Assets\Toon\Shader\Tess\ToonColor_ShadingGradeMap_Tess.shader" />
     <None Include="Assets\Toon\Shader\Tess\ToonColor_ShadingGradeMap_AngelRing_TransClipping_Tess_StencilOut.shader" />
     <None Include="Assets\Toon\Shader\ToonColor_ShadingGradeMap_TransClipping_StencilOut.shader" />
@@ -118,7 +124,9 @@
     <None Include="Assets\VRCAvatars3Tools\LICENSE.txt" />
     <None Include="Assets\Toon\Shader\Tess\UCTS_Outline_Tess.cginc" />
     <None Include="Assets\Toon\Shader\Toon_ShadingGradeMap_AngelRing_TransClipping_StencilOut.shader" />
+    <None Include="Assets\Hirabiki\VRCLens\Resource\DepthOfFieldInclude.cginc" />
     <None Include="Assets\Toon\Shader\Toon_OutlineObject.shader" />
+    <None Include="Assets\Hirabiki\VRCLens\Resource\DepthOfField.shader" />
     <None Include="Assets\VRCSDK\Sample Assets\Shaders\Mobile\VRChat-Mobile-BumpedMappedSpecular.shader" />
     <None Include="Assets\Toon\Shader\Tess\UCTS_ShadowCaster_Tess.cginc" />
     <None Include="Assets\VRCSDK\Sample Assets\Shaders\Mobile\VRChat-Mobile-Particle-Add.shader" />
@@ -133,6 +141,7 @@
     <None Include="Assets\Toon\Shader\Tess\UCTS_Tess.cginc" />
     <None Include="Assets\Toon\Shader\Toon_ShadingGradeMap_AngelRing_Mobile.shader" />
     <None Include="Assets\Toon\Shader\ToonColor_DoubleShadeWithFeather_TransClipping_StencilOut.shader" />
+    <None Include="Assets\Hirabiki\VRCLens\Resource\VROnlyObject.shader" />
     <None Include="Assets\Toon\Shader\Tess\Toon_DoubleShadeWithFeather_Tess_Light.shader" />
     <None Include="Assets\Toon\Shader\ToonColor_ShadingGradeMap_StencilOut.shader" />
     <None Include="Assets\VRCSDK\Dependencies\Managed\System.Memory.dll" />
@@ -140,9 +149,11 @@
     <None Include="Assets\Toon\Shader\ToonColor_ShadingGradeMap_AngelRing_StencilOut.shader" />
     <None Include="Assets\Toon\Shader\Tess\ToonColor_DoubleShadeWithFeather_Clipping_Tess_StencilOut.shader" />
     <None Include="Assets\Toon\Shader\Tess\ToonColor_ShadingGradeMap_Tess_StencilMask.shader" />
+    <None Include="Assets\Hirabiki\VRCLens\Resource\DepthOfFieldAux.shader" />
     <None Include="Assets\Toon\Shader\Toon_DoubleShadeWithFeather_Clipping.shader" />
     <None Include="Assets\Toon\Shader\Tess\Toon_ShadingGradeMap_AngelRing_TransClipping_Tess.shader" />
     <None Include="Assets\Toon\Shader\ToonColor_ShadingGradeMap_StencilMask.shader" />
+    <None Include="Assets\Hirabiki\VRCLens\Lib\AnimatorCloner\LICENSE.txt" />
     <None Include="Assets\Toon\Shader\Tess\Toon_DoubleShadeWithFeather_Clipping_Tess_StencilOut.shader" />
     <None Include="Assets\VRCSDK\Dependencies\Managed\System.Threading.Tasks.Extensions.dll" />
     <None Include="Assets\Toon\Shader\Toon_DoubleShadeWithFeather_Mobile_TransClipping.shader" />
@@ -150,15 +161,20 @@
     <None Include="Assets\Toon\Shader\Tess\Toon_ShadingGradeMap_Tess_Light.shader" />
     <None Include="Assets\VRCSDK\Examples3\Dynamics\Robot Avatar\License.txt" />
     <None Include="Assets\Toon\Shader\Toon_DoubleShadeWithFeather_Mobile_StencilOut.shader" />
+    <None Include="Assets\Hirabiki\VRCLens\Resource\Hirabiki-AV3-Managed.dll" />
     <None Include="Assets\VRCSDK\Sample Assets\Shaders\Mobile\VRChat-Mobile-Particle-Multiply.shader" />
     <None Include="Assets\Toon\Shader\ToonColor_ShadingGradeMap_AngelRing_TransClipping_StencilOut.shader" />
     <None Include="Assets\Toon\Shader\Tess\Toon_OutlineObject_Tess_StencilOut.shader" />
     <None Include="Assets\Toon\Shader\ToonColor_DoubleShadeWithFeather_TransClipping.shader" />
     <None Include="Assets\VRCSDK\Plugins\VRC.Utility.dll" />
+    <None Include="Assets\Hirabiki\VRCLens\Resource\DepthOfFieldAuxFocus.shader" />
+    <None Include="Assets\Hirabiki\VRCLens\readme_DoNotDelete.txt" />
     <None Include="Assets\Toon\Shader\ToonColor_DoubleShadeWithFeather_TransClipping_StencilMask.shader" />
     <None Include="Assets\VRCSDK\license.txt" />
     <None Include="Assets\Toon\Shader\ToonColor_DoubleShadeWithFeather.shader" />
     <None Include="Assets\Toon\Shader\Tess\Toon_ShadingGradeMap_Tess_StencilOut.shader" />
+    <None Include="Assets\Hirabiki\VRCLens\Resource\DepthToAlpha.shader" />
+    <None Include="Assets\Hirabiki\VRCLens\Resource\NumberDisplayInclude.cginc" />
     <None Include="Assets\Toon\Shader\Toon_ShadingGradeMap_TransClipping_StencilOut.shader" />
     <None Include="Assets\VRCSDK\Plugins\VRCSDK3A.dll" />
     <None Include="Assets\Toon\Shader\ToonColor_ShadingGradeMap_Transparent.shader" />
@@ -187,6 +203,7 @@
     <None Include="Assets\Toon\Shader\ToonColor_ShadingGradeMap_AngelRing.shader" />
     <None Include="Assets\VRCSDK\Sample Assets\Shaders\Mirror.shader" />
     <None Include="Assets\Toon\Shader\Tess\Toon_ShadingGradeMap_AngelRing_Tess_Light_StencilOut.shader" />
+    <None Include="Assets\Hirabiki\VRCLens\Resource\DoF_LensShape.cginc" />
     <None Include="Assets\Toon\Shader\Toon_DoubleShadeWithFeather_TransClipping_StencilMask.shader" />
     <None Include="Assets\VRCSDK\Plugins\VRC.SDK3.Dynamics.Contact.Editor.dll" />
     <None Include="Assets\Toon\Shader\Tess\ToonColor_DoubleShadeWithFeather_Tess.shader" />
@@ -229,6 +246,7 @@
     <None Include="Assets\VRCSDK\Plugins\VRCSDKBase-Editor.dll" />
     <None Include="Assets\Toon\Shader\UCTS_ShadingGradeMap.cginc" />
     <None Include="Assets\Toon\Shader\UCTS_Outline.cginc" />
+    <None Include="Assets\Hirabiki\VRCLens\Lib\Filament\EVILS.cginc" />
     <None Include="Assets\Toon\Shader\Tess\Toon_ShadingGradeMap_Tess_StencilMask.shader" />
     <None Include="Assets\Toon\Shader\Toon_DoubleShadeWithFeather_Mobile.shader" />
     <None Include="Assets\VRCSDK\Sample Assets\Shaders\Mobile\VRChat-Mobile-Diffuse.shader" />
@@ -255,6 +273,7 @@
     <None Include="Assets\Toon\Shader\Tess\Toon_DoubleShadeWithFeather_Tess.shader" />
     <None Include="Assets\Toon\Shader\Tess\Toon_DoubleShadeWithFeather_TransClipping_Tess.shader" />
     <None Include="Assets\VRCSDK\Sample Assets\Shaders\VRChat-Sprites-Default.shader" />
+    <None Include="Assets\Hirabiki\VRCLens\Resource\DepthOfFieldMeshPreview.shader" />
     <None Include="Assets\Toon\Shader\ToonColor_ShadingGradeMap.shader" />
     <None Include="Assets\VRCSDK\Sample Assets\Shaders\Mobile\VRChat-Mobile-ToonLit.shader" />
     <None Include="Assets\Toon\Shader\Tess\ToonColor_ShadingGradeMap_TransClipping_Tess_StencilMask.shader" />
@@ -444,6 +463,9 @@
     </Reference>
     <Reference Include="UnityEditor">
       <HintPath>D:\Unity\2019.4.31f1\Editor\Data\Managed\UnityEditor.dll</HintPath>
+    </Reference>
+    <Reference Include="Hirabiki-AV3-Managed">
+      <HintPath>Assets\Hirabiki\VRCLens\Resource\Hirabiki-AV3-Managed.dll</HintPath>
     </Reference>
     <Reference Include="Blake2Sharp">
       <HintPath>Assets\VRCSDK\Dependencies\librsync\Blake2Sharp.dll</HintPath>

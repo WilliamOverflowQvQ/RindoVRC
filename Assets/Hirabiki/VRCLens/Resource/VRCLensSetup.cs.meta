@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: f991aa6629eb5b94487cdb2ba0dd11ba
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - avatarDescriptor: {instanceID: 0}
+  - targetSubMenu: {instanceID: 0}
+  - cameraModel: {fileID: 1834395055022031507, guid: 3bcfefd9ff1a42a4599d149a334a5562,
+      type: 3}
+  - readmeFile: {fileID: 4900000, guid: 7613c69c2e9bf8c45b99f1fedbc900e0, type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,75 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -340790334, guid: 67cc4cb7839cd3741b63733d5adf0442, type: 3}
+  m_Name: VRCL2-Sensors
+  m_EditorClassIdentifier: 
+  controls:
+  - name: '    '
+    icon: {fileID: 2800000, guid: 347cfa21df9065d40baf384eba44260e, type: 3}
+    type: 101
+    parameter:
+      name: VRCLFeatureToggle
+    value: 40
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters: []
+    labels: []
+  - name: '    '
+    icon: {fileID: 2800000, guid: 7b65435d5b952b8438f96bb27c448423, type: 3}
+    type: 101
+    parameter:
+      name: VRCLFeatureToggle
+    value: 41
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters: []
+    labels: []
+  - name: '    '
+    icon: {fileID: 2800000, guid: 058085329b1a0fc45bf149dbb78c5cff, type: 3}
+    type: 101
+    parameter:
+      name: VRCLFeatureToggle
+    value: 42
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters: []
+    labels: []
+  - name: '    '
+    icon: {fileID: 2800000, guid: defcc91de81ecdb4c82f371c7968658d, type: 3}
+    type: 101
+    parameter:
+      name: VRCLFeatureToggle
+    value: 43
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters: []
+    labels: []
+  - name: '    '
+    icon: {fileID: 2800000, guid: 93e0a195652616b48a669a8ab7156a47, type: 3}
+    type: 101
+    parameter:
+      name: VRCLFeatureToggle
+    value: 44
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters: []
+    labels: []
+  - name: '    '
+    icon: {fileID: 2800000, guid: b64847404bcf53d48a33ed743341bdd3, type: 3}
+    type: 101
+    parameter:
+      name: VRCLFeatureToggle
+    value: 45
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters: []
+    labels: []
