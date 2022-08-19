@@ -25,13 +25,14 @@ MonoBehaviour:
     labels: []
   - name: Manual Focus
     icon: {fileID: 2800000, guid: b15997ba59d1f2f429d1ab0fa0701c72, type: 3}
-    type: 103
+    type: 203
     parameter:
       name: 
     value: 1
     style: 0
-    subMenu: {fileID: 11400000, guid: 1716f9f9b1819c24cbb87000a18ca579, type: 2}
-    subParameters: []
+    subMenu: {fileID: 0}
+    subParameters:
+    - name: VRCLFocusRadial
     labels: []
   - name: Zoom
     icon: {fileID: 2800000, guid: 16a1a4b292373a44b8643326bbbb7266, type: 3}
@@ -40,7 +41,7 @@ MonoBehaviour:
       name: 
     value: 1
     style: 0
-    subMenu: {fileID: 11400000, guid: 67a6735a119a4134387b65cdf3ff5ef0, type: 2}
+    subMenu: {fileID: 11400000, guid: 617e8d338d06f9645bece807cc564bc3, type: 2}
     subParameters: []
     labels: []
   - name: Auto Focus
@@ -60,7 +61,7 @@ MonoBehaviour:
       name: 
     value: 1
     style: 0
-    subMenu: {fileID: 11400000, guid: 238d773dabb0f7f4f907c481f6a272d0, type: 2}
+    subMenu: {fileID: 11400000, guid: e32b43ba11c16cd4f8b578c2a1828d72, type: 2}
     subParameters: []
     labels: []
   - name: Avatar AF

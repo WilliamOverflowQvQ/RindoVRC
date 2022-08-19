@@ -81,15 +81,19 @@ MonoBehaviour:
     valueType: 0
     saved: 1
     defaultValue: 0
-  - name: VRCLFeatureToggle
-    valueType: 0
-    saved: 0
-    defaultValue: 0
   - name: VRCFaceBlendH
     valueType: 1
     saved: 0
     defaultValue: 0
   - name: VRCFaceBlendV
+    valueType: 1
+    saved: 0
+    defaultValue: 0
+  - name: VRCLFeatureToggle
+    valueType: 0
+    saved: 0
+    defaultValue: 0
+  - name: VRCLFocusRadial
     valueType: 1
     saved: 0
     defaultValue: 0

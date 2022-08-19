@@ -20,7 +20,7 @@ MonoBehaviour:
       name: 
     value: 2
     style: 0
-    subMenu: {fileID: 11400000, guid: a55eb56722bf2dc4fa22f7aec3c9dabb, type: 2}
+    subMenu: {fileID: 11400000, guid: 585d00a3a627ad24a918d2695269ac22, type: 2}
     subParameters: []
     labels: []
   - name: Filters
@@ -30,7 +30,7 @@ MonoBehaviour:
       name: 
     value: 20
     style: 0
-    subMenu: {fileID: 11400000, guid: e8ab4e6a1c763234c8727880a70f9b85, type: 2}
+    subMenu: {fileID: 11400000, guid: 3753601211e32fd42b1360071652c3ae, type: 2}
     subParameters: []
     labels: []
   - name: Zoom
@@ -40,7 +40,7 @@ MonoBehaviour:
       name: 
     value: 1
     style: 0
-    subMenu: {fileID: 11400000, guid: 67a6735a119a4134387b65cdf3ff5ef0, type: 2}
+    subMenu: {fileID: 11400000, guid: 617e8d338d06f9645bece807cc564bc3, type: 2}
     subParameters: []
     labels: []
   - name: Stabilize
@@ -60,7 +60,7 @@ MonoBehaviour:
       name: 
     value: 1
     style: 0
-    subMenu: {fileID: 11400000, guid: d40e25ea9c98ea742a2913d376bd28ff, type: 2}
+    subMenu: {fileID: 11400000, guid: 92aaae24bbac9064f81cff7d333e1728, type: 2}
     subParameters: []
     labels: []
   - name: Portrait
@@ -80,6 +80,6 @@ MonoBehaviour:
       name: 
     value: 1
     style: 0
-    subMenu: {fileID: 11400000, guid: 238d773dabb0f7f4f907c481f6a272d0, type: 2}
+    subMenu: {fileID: 11400000, guid: e32b43ba11c16cd4f8b578c2a1828d72, type: 2}
     subParameters: []
     labels: []

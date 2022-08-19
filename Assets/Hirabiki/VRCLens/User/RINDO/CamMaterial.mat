@@ -40,7 +40,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _DepthTex:
-        m_Texture: {fileID: 8400000, guid: cd628ae7babb99949891526a4872b6df, type: 2}
+        m_Texture: {fileID: 8400000, guid: 4eab7cf98a7dca64da1542523e5bbdb8, type: 2}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _DetailAlbedoMap:
@@ -88,7 +88,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _RenderTex:
-        m_Texture: {fileID: 8400000, guid: ea73479fa271dfc4189e561e858c0215, type: 2}
+        m_Texture: {fileID: 8400000, guid: d0dda59b8eccbe340b75c85646f619e9, type: 2}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _SymbolTex:
