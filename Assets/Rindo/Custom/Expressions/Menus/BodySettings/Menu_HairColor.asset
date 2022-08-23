@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Menu_HairColor
   m_EditorClassIdentifier: 
   controls:
-  - name: Hair_Default
+  - name: Hair_Cyan
     icon: {fileID: 0}
     type: 102
     parameter:
@@ -29,6 +29,16 @@ MonoBehaviour:
     parameter:
       name: Rindo_HairColor
     value: 1
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters: []
+    labels: []
+  - name: Hair_Brown
+    icon: {fileID: 0}
+    type: 102
+    parameter:
+      name: Rindo_HairColor
+    value: 2
     style: 0
     subMenu: {fileID: 0}
     subParameters: []
