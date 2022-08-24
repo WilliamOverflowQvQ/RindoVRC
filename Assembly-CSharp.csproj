@@ -272,6 +272,7 @@
     <None Include="Assets\Toon\Shader\Tess\Toon_ShadingGradeMap_TransClipping_Tess.shader" />
     <None Include="Assets\Toon\Shader\Tess\Toon_DoubleShadeWithFeather_Tess.shader" />
     <None Include="Assets\Toon\Shader\Tess\Toon_DoubleShadeWithFeather_TransClipping_Tess.shader" />
+    <None Include="Assets\KurotoriTools\AvatarTools\README.txt" />
     <None Include="Assets\VRCSDK\Sample Assets\Shaders\VRChat-Sprites-Default.shader" />
     <None Include="Assets\Hirabiki\VRCLens\Resource\DepthOfFieldMeshPreview.shader" />
     <None Include="Assets\Toon\Shader\ToonColor_ShadingGradeMap.shader" />

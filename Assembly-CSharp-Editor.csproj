@@ -54,6 +54,13 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="Assets\Hirabiki\VRCLens\Editor\ConfigInspector.cs" />
+    <Compile Include="Assets\KurotoriTools\AvatarTools\Editor\AvatarAssemblerCore.cs" />
+    <Compile Include="Assets\KurotoriTools\AvatarTools\Editor\ComponentRemapper.cs" />
+    <Compile Include="Assets\KurotoriTools\AvatarTools\Editor\SkinnedMeshCombinerCore.cs" />
+    <Compile Include="Assets\KurotoriTools\AvatarTools\Editor\UI\AvatarAssemblerUI.cs" />
+    <Compile Include="Assets\KurotoriTools\AvatarTools\Editor\UI\SkinnedMeshCombinerUI.cs" />
+    <Compile Include="Assets\KurotoriTools\KurotoriUnityLib\Editor\KurotoriUtility.cs" />
+    <Compile Include="Assets\KurotoriTools\KurotoriUnityLib\Editor\LogUtility.cs" />
     <Compile Include="Assets\Toon\Editor\CopyMaterialParameter.cs" />
     <Compile Include="Assets\Toon\Editor\RemoveUnusedMaterialProperties.cs" />
     <Compile Include="Assets\Toon\Editor\RemoveUnusedShaderKeywordsFromUTS2Material.cs" />
