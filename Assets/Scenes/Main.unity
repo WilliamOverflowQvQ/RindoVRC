@@ -151,7 +151,6 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1461700243}
-  - {fileID: 1810239232}
   - {fileID: 1535528260}
   m_Father: {fileID: 2049558486}
   m_RootOrder: 0
@@ -176,36 +175,6 @@ MonoBehaviour:
   position: {x: 0, y: 0.1, z: 0}
   rotation: {x: 0, y: 0, z: 0, w: 1}
   bonesAsSpheres: 0
---- !u!1 &3240008
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 3240009}
-  m_Layer: 0
-  m_Name: Sera_ribbon_R.003_end
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &3240009
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3240008}
-  m_LocalRotation: {x: 0.07354371, y: -0.6581878, z: -0.019155066, w: 0.7490082}
-  m_LocalPosition: {x: -0.000000028871, y: 0.031373672, z: -0.0000000035506673}
-  m_LocalScale: {x: 0.99999994, y: 1, z: 0.9999998}
-  m_Children: []
-  m_Father: {fileID: 984920515}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &6092682
 GameObject:
   m_ObjectHideFlags: 0
@@ -22631,7 +22600,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1664184344}
-  m_RootOrder: 7
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &212617471
 MonoBehaviour:
@@ -38802,8 +38771,8 @@ SkinnedMeshRenderer:
   - {fileID: 0}
   - {fileID: 1650721886}
   - {fileID: 1535528260}
-  - {fileID: 1810239232}
-  - {fileID: 1418190561}
+  - {fileID: 0}
+  - {fileID: 0}
   - {fileID: 1714919995}
   - {fileID: 1274538885}
   - {fileID: 486620441}
@@ -38831,22 +38800,22 @@ SkinnedMeshRenderer:
   - {fileID: 0}
   - {fileID: 1427222494}
   - {fileID: 1691436154}
-  - {fileID: 872680610}
-  - {fileID: 1888828950}
+  - {fileID: 0}
+  - {fileID: 0}
   - {fileID: 1553490133}
   - {fileID: 1239394049}
   - {fileID: 77824523}
   - {fileID: 675883134}
-  - {fileID: 2079111296}
-  - {fileID: 1619820250}
-  - {fileID: 1370220072}
-  - {fileID: 2067060498}
-  - {fileID: 639711500}
-  - {fileID: 355010356}
-  - {fileID: 1522228683}
-  - {fileID: 1979456008}
-  - {fileID: 984920515}
-  - {fileID: 3240009}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
   - {fileID: 1680354339}
   - {fileID: 259072282}
   - {fileID: 795976292}
@@ -43883,184 +43852,6 @@ Transform:
   m_Father: {fileID: 952298756}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &355010355
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 355010356}
-  - component: {fileID: 355010357}
-  m_Layer: 0
-  m_Name: Sera_ribbon_R
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &355010356
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 355010355}
-  m_LocalRotation: {x: 0.0017656577, y: 0.041112747, z: 0.9699963, w: -0.23961198}
-  m_LocalPosition: {x: 0.0053416216, y: 0.064183295, z: 0.08225615}
-  m_LocalScale: {x: 1.0000006, y: 1.0000001, z: 1}
-  m_Children:
-  - {fileID: 1522228683}
-  m_Father: {fileID: 1664184344}
-  m_RootOrder: 4
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &355010357
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 355010355}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1661641543, guid: 2a2c05204084d904aa4945ccff20d8e5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  integrationType: 1
-  rootTransform: {fileID: 355010356}
-  ignoreTransforms: []
-  endpointPosition: {x: 0, y: 0, z: 0}
-  multiChildType: 0
-  pull: 0.1
-  pullCurve:
-    serializedVersion: 2
-    m_Curve: []
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  spring: 0.6
-  springCurve:
-    serializedVersion: 2
-    m_Curve: []
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  stiffness: 0
-  stiffnessCurve:
-    serializedVersion: 2
-    m_Curve: []
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  gravity: -0
-  gravityCurve:
-    serializedVersion: 2
-    m_Curve: []
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  gravityFalloff: 0
-  gravityFalloffCurve:
-    serializedVersion: 2
-    m_Curve: []
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  immobileType: 0
-  immobile: 0.2
-  immobileCurve:
-    serializedVersion: 2
-    m_Curve: []
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  allowCollision: 1
-  radius: 0.02
-  radiusCurve:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 3
-      time: 0
-      value: 0.48125005
-      inSlope: 1.9499998
-      outSlope: 1.9499998
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.20833333
-    - serializedVersion: 3
-      time: 0.49568456
-      value: 1.0762391
-      inSlope: -0.037296653
-      outSlope: -0.037296653
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    - serializedVersion: 3
-      time: 1
-      value: 0.44375002
-      inSlope: -1.9583336
-      outSlope: -1.9583336
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.14999998
-      outWeight: 0.33333334
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  colliders:
-  - {fileID: 212617471}
-  limitType: 1
-  maxAngleX: 129
-  maxAngleXCurve:
-    serializedVersion: 2
-    m_Curve: []
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  maxAngleZ: 45
-  maxAngleZCurve:
-    serializedVersion: 2
-    m_Curve: []
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  limitRotation: {x: 0, y: 0, z: 0}
-  limitRotationXCurve:
-    serializedVersion: 2
-    m_Curve: []
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  limitRotationYCurve:
-    serializedVersion: 2
-    m_Curve: []
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  limitRotationZCurve:
-    serializedVersion: 2
-    m_Curve: []
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  allowGrabbing: 1
-  allowPosing: 1
-  grabMovement: 0.5
-  maxStretch: 0
-  maxStretchCurve:
-    serializedVersion: 2
-    m_Curve: []
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  isAnimated: 0
-  parameter: 
-  showGizmos: 1
-  boneOpacity: 0.5
-  limitOpacity: 0.5
 --- !u!1 &361238264
 GameObject:
   m_ObjectHideFlags: 0
@@ -54939,8 +54730,8 @@ SkinnedMeshRenderer:
   - {fileID: 0}
   - {fileID: 1650721886}
   - {fileID: 1535528260}
-  - {fileID: 1810239232}
-  - {fileID: 1418190561}
+  - {fileID: 0}
+  - {fileID: 0}
   - {fileID: 1714919995}
   - {fileID: 1274538885}
   - {fileID: 486620441}
@@ -54968,22 +54759,22 @@ SkinnedMeshRenderer:
   - {fileID: 0}
   - {fileID: 1427222494}
   - {fileID: 1691436154}
-  - {fileID: 872680610}
-  - {fileID: 1888828950}
+  - {fileID: 0}
+  - {fileID: 0}
   - {fileID: 1553490133}
   - {fileID: 1239394049}
   - {fileID: 77824523}
   - {fileID: 675883134}
-  - {fileID: 2079111296}
-  - {fileID: 1619820250}
-  - {fileID: 1370220072}
-  - {fileID: 2067060498}
-  - {fileID: 639711500}
-  - {fileID: 355010356}
-  - {fileID: 1522228683}
-  - {fileID: 1979456008}
-  - {fileID: 984920515}
-  - {fileID: 3240009}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
   - {fileID: 1680354339}
   - {fileID: 259072282}
   - {fileID: 795976292}
@@ -71867,36 +71658,6 @@ MonoBehaviour:
   showGizmos: 1
   boneOpacity: 0.5
   limitOpacity: 0.5
---- !u!1 &639711499
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 639711500}
-  m_Layer: 0
-  m_Name: Sera_ribbon_L.003_end
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &639711500
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 639711499}
-  m_LocalRotation: {x: 0.07354362, y: 0.65818775, z: 0.01915506, w: 0.74900824}
-  m_LocalPosition: {x: 0.000000024214387, y: 0.03137378, z: 0.000000010593794}
-  m_LocalScale: {x: 1, y: 0.99999994, z: 1}
-  m_Children: []
-  m_Father: {fileID: 2067060498}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &644817174
 GameObject:
   m_ObjectHideFlags: 0
@@ -79031,156 +78792,6 @@ Transform:
   m_Father: {fileID: 1618819036}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &872680609
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 872680610}
-  - component: {fileID: 872680611}
-  m_Layer: 0
-  m_Name: UpperArm_bell_R
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &872680610
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 872680609}
-  m_LocalRotation: {x: 0.372799, y: 0.00000006842469, z: -0.000000010427759, w: 0.9279121}
-  m_LocalPosition: {x: 0.004177034, y: 0.08885414, z: 0.033260226}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children:
-  - {fileID: 1888828950}
-  m_Father: {fileID: 1274538885}
-  m_RootOrder: 1
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &872680611
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 872680609}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1661641543, guid: 2a2c05204084d904aa4945ccff20d8e5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  integrationType: 1
-  rootTransform: {fileID: 872680610}
-  ignoreTransforms: []
-  endpointPosition: {x: 0, y: 0, z: 0}
-  multiChildType: 0
-  pull: 0.05
-  pullCurve:
-    serializedVersion: 2
-    m_Curve: []
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  spring: 0.9
-  springCurve:
-    serializedVersion: 2
-    m_Curve: []
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  stiffness: 0
-  stiffnessCurve:
-    serializedVersion: 2
-    m_Curve: []
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  gravity: 0.03777921
-  gravityCurve:
-    serializedVersion: 2
-    m_Curve: []
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  gravityFalloff: 1
-  gravityFalloffCurve:
-    serializedVersion: 2
-    m_Curve: []
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  immobileType: 0
-  immobile: 0.3
-  immobileCurve:
-    serializedVersion: 2
-    m_Curve: []
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  allowCollision: 1
-  radius: 0.015
-  radiusCurve:
-    serializedVersion: 2
-    m_Curve: []
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  colliders: []
-  limitType: 1
-  maxAngleX: 129
-  maxAngleXCurve:
-    serializedVersion: 2
-    m_Curve: []
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  maxAngleZ: 45
-  maxAngleZCurve:
-    serializedVersion: 2
-    m_Curve: []
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  limitRotation: {x: 0, y: 0, z: 0}
-  limitRotationXCurve:
-    serializedVersion: 2
-    m_Curve: []
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  limitRotationYCurve:
-    serializedVersion: 2
-    m_Curve: []
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  limitRotationZCurve:
-    serializedVersion: 2
-    m_Curve: []
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  allowGrabbing: 1
-  allowPosing: 1
-  grabMovement: 0.5
-  maxStretch: 0
-  maxStretchCurve:
-    serializedVersion: 2
-    m_Curve: []
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  isAnimated: 0
-  parameter: 
-  showGizmos: 1
-  boneOpacity: 0.5
-  limitOpacity: 0.5
 --- !u!1 &880744822
 GameObject:
   m_ObjectHideFlags: 0
@@ -95331,37 +94942,6 @@ Transform:
   m_Father: {fileID: 179430771}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &984920514
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 984920515}
-  m_Layer: 0
-  m_Name: Sera_ribbon_R.003
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &984920515
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 984920514}
-  m_LocalRotation: {x: 0.050416775, y: 0.98886675, z: -0.12929288, w: 0.05370387}
-  m_LocalPosition: {x: 0.000000033644028, y: 0.030741824, z: -0.0000000060608727}
-  m_LocalScale: {x: 1, y: 1.0000002, z: 1}
-  m_Children:
-  - {fileID: 3240009}
-  m_Father: {fileID: 1979456008}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1017173696
 GameObject:
   m_ObjectHideFlags: 0
@@ -105906,8 +105486,8 @@ SkinnedMeshRenderer:
   - {fileID: 0}
   - {fileID: 1650721886}
   - {fileID: 1535528260}
-  - {fileID: 1810239232}
-  - {fileID: 1418190561}
+  - {fileID: 0}
+  - {fileID: 0}
   - {fileID: 1714919995}
   - {fileID: 1274538885}
   - {fileID: 486620441}
@@ -105935,22 +105515,22 @@ SkinnedMeshRenderer:
   - {fileID: 0}
   - {fileID: 1427222494}
   - {fileID: 1691436154}
-  - {fileID: 872680610}
-  - {fileID: 1888828950}
+  - {fileID: 0}
+  - {fileID: 0}
   - {fileID: 1553490133}
   - {fileID: 1239394049}
   - {fileID: 77824523}
   - {fileID: 675883134}
-  - {fileID: 2079111296}
-  - {fileID: 1619820250}
-  - {fileID: 1370220072}
-  - {fileID: 2067060498}
-  - {fileID: 639711500}
-  - {fileID: 355010356}
-  - {fileID: 1522228683}
-  - {fileID: 1979456008}
-  - {fileID: 984920515}
-  - {fileID: 3240009}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
   - {fileID: 1680354339}
   - {fileID: 259072282}
   - {fileID: 795976292}
@@ -117135,7 +116715,6 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 486620441}
-  - {fileID: 872680610}
   - {fileID: 1691436154}
   m_Father: {fileID: 1714919995}
   m_RootOrder: 0
@@ -122348,8 +121927,8 @@ SkinnedMeshRenderer:
   - {fileID: 0}
   - {fileID: 1650721886}
   - {fileID: 1535528260}
-  - {fileID: 1810239232}
-  - {fileID: 1418190561}
+  - {fileID: 0}
+  - {fileID: 0}
   - {fileID: 1714919995}
   - {fileID: 1274538885}
   - {fileID: 486620441}
@@ -122377,22 +121956,22 @@ SkinnedMeshRenderer:
   - {fileID: 0}
   - {fileID: 1427222494}
   - {fileID: 1691436154}
-  - {fileID: 872680610}
-  - {fileID: 1888828950}
+  - {fileID: 0}
+  - {fileID: 0}
   - {fileID: 1553490133}
   - {fileID: 1239394049}
   - {fileID: 77824523}
   - {fileID: 675883134}
-  - {fileID: 2079111296}
-  - {fileID: 1619820250}
-  - {fileID: 1370220072}
-  - {fileID: 2067060498}
-  - {fileID: 639711500}
-  - {fileID: 355010356}
-  - {fileID: 1522228683}
-  - {fileID: 1979456008}
-  - {fileID: 984920515}
-  - {fileID: 3240009}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
   - {fileID: 1680354339}
   - {fileID: 259072282}
   - {fileID: 795976292}
@@ -123703,37 +123282,6 @@ Transform:
   m_Children:
   - {fileID: 422289392}
   m_Father: {fileID: 548433070}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &1370220071
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1370220072}
-  m_Layer: 0
-  m_Name: Sera_ribbon_L.002
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1370220072
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1370220071}
-  m_LocalRotation: {x: 0.015605453, y: -0.004575049, z: -0.044277925, w: 0.9988869}
-  m_LocalPosition: {x: -0.00000001071021, y: 0.035014797, z: 0.0000000027821443}
-  m_LocalScale: {x: 1, y: 1.0000001, z: 1.0000001}
-  m_Children:
-  - {fileID: 2067060498}
-  m_Father: {fileID: 1619820250}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1378001596
@@ -128806,36 +128354,6 @@ Transform:
   m_Father: {fileID: 138286095}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &1418190560
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1418190561}
-  m_Layer: 0
-  m_Name: UpperArm_bell_L.001
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1418190561
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1418190560}
-  m_LocalRotation: {x: -0.00000020861623, y: 0.0000001937151, z: -4.0412118e-14, w: 1}
-  m_LocalPosition: {x: -7.1631145e-10, y: 0.026469512, z: -0.000000031515}
-  m_LocalScale: {x: 1, y: 1.0000001, z: 1.0000001}
-  m_Children: []
-  m_Father: {fileID: 1810239232}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1418623108
 GameObject:
   m_ObjectHideFlags: 0
@@ -129294,8 +128812,8 @@ SkinnedMeshRenderer:
   - {fileID: 0}
   - {fileID: 1650721886}
   - {fileID: 1535528260}
-  - {fileID: 1810239232}
-  - {fileID: 1418190561}
+  - {fileID: 0}
+  - {fileID: 0}
   - {fileID: 1714919995}
   - {fileID: 1274538885}
   - {fileID: 486620441}
@@ -129323,22 +128841,22 @@ SkinnedMeshRenderer:
   - {fileID: 0}
   - {fileID: 1427222494}
   - {fileID: 1691436154}
-  - {fileID: 872680610}
-  - {fileID: 1888828950}
+  - {fileID: 0}
+  - {fileID: 0}
   - {fileID: 1553490133}
   - {fileID: 1239394049}
   - {fileID: 77824523}
   - {fileID: 675883134}
-  - {fileID: 2079111296}
-  - {fileID: 1619820250}
-  - {fileID: 1370220072}
-  - {fileID: 2067060498}
-  - {fileID: 639711500}
-  - {fileID: 355010356}
-  - {fileID: 1522228683}
-  - {fileID: 1979456008}
-  - {fileID: 984920515}
-  - {fileID: 3240009}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
   - {fileID: 1680354339}
   - {fileID: 259072282}
   - {fileID: 795976292}
@@ -129951,37 +129469,6 @@ Transform:
   m_Father: {fileID: 1467887803}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &1522228682
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1522228683}
-  m_Layer: 0
-  m_Name: Sera_ribbon_R.001
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1522228683
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1522228682}
-  m_LocalRotation: {x: 0.03319233, y: 0.98985475, z: -0.12757088, w: -0.053023674}
-  m_LocalPosition: {x: 0.000000013038516, y: 0.035228882, z: -0.000000035652192}
-  m_LocalScale: {x: 1.0000001, y: 0.9999997, z: 0.99999994}
-  m_Children:
-  - {fileID: 1979456008}
-  m_Father: {fileID: 355010356}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1535528259
 GameObject:
   m_ObjectHideFlags: 0
@@ -130012,7 +129499,7 @@ Transform:
   m_Children:
   - {fileID: 668080969}
   m_Father: {fileID: 893086}
-  m_RootOrder: 2
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1818360609 &1535528261
 RotationConstraint:
@@ -135912,8 +135399,8 @@ SkinnedMeshRenderer:
   - {fileID: 0}
   - {fileID: 1650721886}
   - {fileID: 1535528260}
-  - {fileID: 1810239232}
-  - {fileID: 1418190561}
+  - {fileID: 0}
+  - {fileID: 0}
   - {fileID: 1714919995}
   - {fileID: 1274538885}
   - {fileID: 486620441}
@@ -135941,22 +135428,22 @@ SkinnedMeshRenderer:
   - {fileID: 0}
   - {fileID: 1427222494}
   - {fileID: 1691436154}
-  - {fileID: 872680610}
-  - {fileID: 1888828950}
+  - {fileID: 0}
+  - {fileID: 0}
   - {fileID: 1553490133}
   - {fileID: 1239394049}
   - {fileID: 77824523}
   - {fileID: 675883134}
-  - {fileID: 2079111296}
-  - {fileID: 1619820250}
-  - {fileID: 1370220072}
-  - {fileID: 2067060498}
-  - {fileID: 639711500}
-  - {fileID: 355010356}
-  - {fileID: 1522228683}
-  - {fileID: 1979456008}
-  - {fileID: 984920515}
-  - {fileID: 3240009}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
   - {fileID: 1680354339}
   - {fileID: 259072282}
   - {fileID: 795976292}
@@ -136321,37 +135808,6 @@ MonoBehaviour:
   showGizmos: 1
   boneOpacity: 0.5
   limitOpacity: 0.5
---- !u!1 &1619820249
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1619820250}
-  m_Layer: 0
-  m_Name: Sera_ribbon_L.001
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1619820250
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1619820249}
-  m_LocalRotation: {x: -0.033192176, y: 0.9898548, z: -0.12757045, w: 0.053023513}
-  m_LocalPosition: {x: 0.000000019557774, y: 0.035228662, z: 0.0000000055588316}
-  m_LocalScale: {x: 1, y: 0.9999998, z: 0.99999994}
-  m_Children:
-  - {fileID: 1370220072}
-  m_Father: {fileID: 2079111296}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1620205977
 GameObject:
   m_ObjectHideFlags: 0
@@ -141494,8 +140950,6 @@ Transform:
   - {fileID: 1553490133}
   - {fileID: 77824523}
   - {fileID: 468171490}
-  - {fileID: 2079111296}
-  - {fileID: 355010356}
   - {fileID: 2049558486}
   - {fileID: 1714919995}
   - {fileID: 212617470}
@@ -142099,7 +141553,7 @@ Transform:
   m_Children:
   - {fileID: 1249729675}
   m_Father: {fileID: 1274538885}
-  m_RootOrder: 2
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1818360609 &1691436155
 RotationConstraint:
@@ -142318,7 +141772,7 @@ Transform:
   m_Children:
   - {fileID: 1274538885}
   m_Father: {fileID: 1664184344}
-  m_RootOrder: 6
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1721307662
 GameObject:
@@ -147637,156 +147091,6 @@ Transform:
   m_Father: {fileID: 974125349}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &1810239231
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1810239232}
-  - component: {fileID: 1810239233}
-  m_Layer: 0
-  m_Name: UpperArm_bell_L
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1810239232
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1810239231}
-  m_LocalRotation: {x: 0.372799, y: -0.00000006842469, z: 0.000000010427759, w: 0.9279121}
-  m_LocalPosition: {x: -0.004177034, y: 0.088854134, z: 0.033260107}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children:
-  - {fileID: 1418190561}
-  m_Father: {fileID: 893086}
-  m_RootOrder: 1
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1810239233
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1810239231}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1661641543, guid: 2a2c05204084d904aa4945ccff20d8e5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  integrationType: 1
-  rootTransform: {fileID: 1810239232}
-  ignoreTransforms: []
-  endpointPosition: {x: 0, y: 0, z: 0}
-  multiChildType: 0
-  pull: 0.05
-  pullCurve:
-    serializedVersion: 2
-    m_Curve: []
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  spring: 0.9
-  springCurve:
-    serializedVersion: 2
-    m_Curve: []
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  stiffness: 0
-  stiffnessCurve:
-    serializedVersion: 2
-    m_Curve: []
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  gravity: 0.037779275
-  gravityCurve:
-    serializedVersion: 2
-    m_Curve: []
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  gravityFalloff: 1
-  gravityFalloffCurve:
-    serializedVersion: 2
-    m_Curve: []
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  immobileType: 0
-  immobile: 0.3
-  immobileCurve:
-    serializedVersion: 2
-    m_Curve: []
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  allowCollision: 1
-  radius: 0.015
-  radiusCurve:
-    serializedVersion: 2
-    m_Curve: []
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  colliders: []
-  limitType: 1
-  maxAngleX: 129
-  maxAngleXCurve:
-    serializedVersion: 2
-    m_Curve: []
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  maxAngleZ: 45
-  maxAngleZCurve:
-    serializedVersion: 2
-    m_Curve: []
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  limitRotation: {x: 0, y: 0, z: 0}
-  limitRotationXCurve:
-    serializedVersion: 2
-    m_Curve: []
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  limitRotationYCurve:
-    serializedVersion: 2
-    m_Curve: []
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  limitRotationZCurve:
-    serializedVersion: 2
-    m_Curve: []
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  allowGrabbing: 1
-  allowPosing: 1
-  grabMovement: 0.5
-  maxStretch: 0
-  maxStretchCurve:
-    serializedVersion: 2
-    m_Curve: []
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  isAnimated: 0
-  parameter: 
-  showGizmos: 1
-  boneOpacity: 0.5
-  limitOpacity: 0.5
 --- !u!1 &1815432579
 GameObject:
   m_ObjectHideFlags: 0
@@ -152962,36 +152266,6 @@ Transform:
   m_LocalScale: {x: 0.99999994, y: 1, z: 0.9999999}
   m_Children: []
   m_Father: {fileID: 1019562264}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &1888828949
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1888828950}
-  m_Layer: 0
-  m_Name: UpperArm_bell_R.001
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1888828950
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1888828949}
-  m_LocalRotation: {x: -0.00000016391277, y: -0.00000019371512, z: 3.019807e-14, w: 1}
-  m_LocalPosition: {x: -0.0000000011463337, y: 0.026469557, z: -0.00000001661384}
-  m_LocalScale: {x: 1, y: 1, z: 0.99999994}
-  m_Children: []
-  m_Father: {fileID: 872680610}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1916025112
@@ -158535,37 +157809,6 @@ Transform:
   m_Father: {fileID: 1538071817}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &1979456007
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1979456008}
-  m_Layer: 0
-  m_Name: Sera_ribbon_R.002
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1979456008
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1979456007}
-  m_LocalRotation: {x: 0.015605432, y: 0.0045751887, z: 0.044277925, w: 0.9988869}
-  m_LocalPosition: {x: 0.0000000058789738, y: 0.035014793, z: -0.000000005187758}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children:
-  - {fileID: 984920515}
-  m_Father: {fileID: 1522228683}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1987745235
 GameObject:
   m_ObjectHideFlags: 0
@@ -158595,7 +157838,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1664184344}
-  m_RootOrder: 8
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1987745237
 MonoBehaviour:
@@ -159221,7 +158464,7 @@ Transform:
   m_Children:
   - {fileID: 893086}
   m_Father: {fileID: 1664184344}
-  m_RootOrder: 5
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2065391780
 GameObject:
@@ -159251,37 +158494,6 @@ Transform:
   m_LocalScale: {x: 0.9999999, y: 0.99999994, z: 0.9999999}
   m_Children: []
   m_Father: {fileID: 218150198}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &2067060497
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 2067060498}
-  m_Layer: 0
-  m_Name: Sera_ribbon_L.003
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &2067060498
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2067060497}
-  m_LocalRotation: {x: -0.05041684, y: 0.9888667, z: -0.12929295, w: -0.05370422}
-  m_LocalPosition: {x: -0.000000011175871, y: 0.030741759, z: -0.000000002233719}
-  m_LocalScale: {x: 1, y: 1.0000002, z: 1}
-  m_Children:
-  - {fileID: 639711500}
-  m_Father: {fileID: 1370220072}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2073661348
@@ -159335,184 +158547,6 @@ MonoBehaviour:
   position: {x: 0, y: -0.03, z: 0.01}
   rotation: {x: 0, y: 0, z: 0, w: 1}
   bonesAsSpheres: 0
---- !u!1 &2079111295
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 2079111296}
-  - component: {fileID: 2079111297}
-  m_Layer: 0
-  m_Name: Sera_ribbon_L
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &2079111296
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2079111295}
-  m_LocalRotation: {x: -0.0017659472, y: 0.041112505, z: 0.9699963, w: 0.23961195}
-  m_LocalPosition: {x: -0.0053416607, y: 0.064183295, z: 0.08225615}
-  m_LocalScale: {x: 1.0000006, y: 1.0000001, z: 1}
-  m_Children:
-  - {fileID: 1619820250}
-  m_Father: {fileID: 1664184344}
-  m_RootOrder: 3
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &2079111297
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2079111295}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1661641543, guid: 2a2c05204084d904aa4945ccff20d8e5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  integrationType: 1
-  rootTransform: {fileID: 2079111296}
-  ignoreTransforms: []
-  endpointPosition: {x: 0, y: 0, z: 0}
-  multiChildType: 0
-  pull: 0.1
-  pullCurve:
-    serializedVersion: 2
-    m_Curve: []
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  spring: 0.6
-  springCurve:
-    serializedVersion: 2
-    m_Curve: []
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  stiffness: 0
-  stiffnessCurve:
-    serializedVersion: 2
-    m_Curve: []
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  gravity: -0
-  gravityCurve:
-    serializedVersion: 2
-    m_Curve: []
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  gravityFalloff: 0
-  gravityFalloffCurve:
-    serializedVersion: 2
-    m_Curve: []
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  immobileType: 0
-  immobile: 0.2
-  immobileCurve:
-    serializedVersion: 2
-    m_Curve: []
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  allowCollision: 1
-  radius: 0.02
-  radiusCurve:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 3
-      time: 0
-      value: 0.48125005
-      inSlope: 1.9499998
-      outSlope: 1.9499998
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.20833333
-    - serializedVersion: 3
-      time: 0.49568456
-      value: 1.0762391
-      inSlope: -0.037296653
-      outSlope: -0.037296653
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    - serializedVersion: 3
-      time: 1
-      value: 0.44375002
-      inSlope: -1.9583336
-      outSlope: -1.9583336
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.14999998
-      outWeight: 0.33333334
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  colliders:
-  - {fileID: 212617471}
-  limitType: 1
-  maxAngleX: 129
-  maxAngleXCurve:
-    serializedVersion: 2
-    m_Curve: []
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  maxAngleZ: 45
-  maxAngleZCurve:
-    serializedVersion: 2
-    m_Curve: []
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  limitRotation: {x: 0, y: 0, z: 0}
-  limitRotationXCurve:
-    serializedVersion: 2
-    m_Curve: []
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  limitRotationYCurve:
-    serializedVersion: 2
-    m_Curve: []
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  limitRotationZCurve:
-    serializedVersion: 2
-    m_Curve: []
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  allowGrabbing: 1
-  allowPosing: 1
-  grabMovement: 0.5
-  maxStretch: 0
-  maxStretchCurve:
-    serializedVersion: 2
-    m_Curve: []
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  isAnimated: 0
-  parameter: 
-  showGizmos: 1
-  boneOpacity: 0.5
-  limitOpacity: 0.5
 --- !u!1 &2084544653
 GameObject:
   m_ObjectHideFlags: 0
