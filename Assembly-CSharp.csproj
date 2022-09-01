@@ -22,7 +22,7 @@
     <DebugType>full</DebugType>
     <Optimize>false</Optimize>
     <OutputPath>Temp\Bin\Debug\</OutputPath>
-    <DefineConstants>UNITY_2019_4_31;UNITY_2019_4;UNITY_2019;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_2017_1_OR_NEWER;UNITY_2017_2_OR_NEWER;UNITY_2017_3_OR_NEWER;UNITY_2017_4_OR_NEWER;UNITY_2018_1_OR_NEWER;UNITY_2018_2_OR_NEWER;UNITY_2018_3_OR_NEWER;UNITY_2018_4_OR_NEWER;UNITY_2019_1_OR_NEWER;UNITY_2019_2_OR_NEWER;UNITY_2019_3_OR_NEWER;UNITY_2019_4_OR_NEWER;PLATFORM_ARCH_64;UNITY_64;UNITY_INCLUDE_TESTS;ENABLE_AR;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_EVENT_QUEUE;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_TEXTURE_STREAMING;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_VR;ENABLE_WEBCAM;ENABLE_UNITYWEBREQUEST;ENABLE_WWW;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_COLLAB_SOFTLOCKS;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_SERVICES_USE_WEBREQUEST;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_HUB_LICENSE;ENABLE_WEBSOCKET_CLIENT;ENABLE_DIRECTOR_AUDIO;ENABLE_DIRECTOR_TEXTURE;ENABLE_MANAGED_JOBS;ENABLE_MANAGED_TRANSFORM_JOBS;ENABLE_MANAGED_ANIMATION_JOBS;ENABLE_MANAGED_AUDIO_JOBS;INCLUDE_DYNAMIC_GI;ENABLE_MONO_BDWGC;ENABLE_SCRIPTING_GC_WBARRIERS;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;ENABLE_VIDEO;PLATFORM_STANDALONE;PLATFORM_STANDALONE_WIN;UNITY_STANDALONE_WIN;UNITY_STANDALONE;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_OUT_OF_PROCESS_CRASH_HANDLER;ENABLE_CLUSTER_SYNC;ENABLE_CLUSTERINPUT;GFXDEVICE_WAITFOREVENT_MESSAGEPUMP;ENABLE_WEBSOCKET_HOST;ENABLE_MONO;NET_4_6;ENABLE_PROFILER;DEBUG;TRACE;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;ENABLE_UNITY_COLLECTIONS_CHECKS;ENABLE_BURST_AOT;UNITY_TEAM_LICENSE;ENABLE_CUSTOM_RENDER_TEXTURE;ENABLE_DIRECTOR;ENABLE_LOCALIZATION;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_TILEMAP;ENABLE_TIMELINE;ENABLE_LEGACY_INPUT_MANAGER;VRC_SDK_VRCSDK3;CSHARP_7_OR_LATER;CSHARP_7_3_OR_NEWER</DefineConstants>
+    <DefineConstants>UNITY_2019_4_31;UNITY_2019_4;UNITY_2019;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_2017_1_OR_NEWER;UNITY_2017_2_OR_NEWER;UNITY_2017_3_OR_NEWER;UNITY_2017_4_OR_NEWER;UNITY_2018_1_OR_NEWER;UNITY_2018_2_OR_NEWER;UNITY_2018_3_OR_NEWER;UNITY_2018_4_OR_NEWER;UNITY_2019_1_OR_NEWER;UNITY_2019_2_OR_NEWER;UNITY_2019_3_OR_NEWER;UNITY_2019_4_OR_NEWER;PLATFORM_ARCH_64;UNITY_64;UNITY_INCLUDE_TESTS;ENABLE_AR;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_EVENT_QUEUE;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_TEXTURE_STREAMING;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_VR;ENABLE_WEBCAM;ENABLE_UNITYWEBREQUEST;ENABLE_WWW;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_COLLAB_SOFTLOCKS;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_SERVICES_USE_WEBREQUEST;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_HUB_LICENSE;ENABLE_WEBSOCKET_CLIENT;ENABLE_DIRECTOR_AUDIO;ENABLE_DIRECTOR_TEXTURE;ENABLE_MANAGED_JOBS;ENABLE_MANAGED_TRANSFORM_JOBS;ENABLE_MANAGED_ANIMATION_JOBS;ENABLE_MANAGED_AUDIO_JOBS;INCLUDE_DYNAMIC_GI;ENABLE_MONO_BDWGC;ENABLE_SCRIPTING_GC_WBARRIERS;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;ENABLE_VIDEO;PLATFORM_STANDALONE;PLATFORM_STANDALONE_WIN;UNITY_STANDALONE_WIN;UNITY_STANDALONE;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_OUT_OF_PROCESS_CRASH_HANDLER;ENABLE_CLUSTER_SYNC;ENABLE_CLUSTERINPUT;GFXDEVICE_WAITFOREVENT_MESSAGEPUMP;ENABLE_WEBSOCKET_HOST;ENABLE_MONO;NET_4_6;ENABLE_PROFILER;DEBUG;TRACE;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;ENABLE_UNITY_COLLECTIONS_CHECKS;ENABLE_BURST_AOT;UNITY_TEAM_LICENSE;ENABLE_CUSTOM_RENDER_TEXTURE;ENABLE_DIRECTOR;ENABLE_LOCALIZATION;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_TILEMAP;ENABLE_TIMELINE;ENABLE_LEGACY_INPUT_MANAGER;VRC_SDK_VRCSDK3;PUMKIN_PBONES;CSHARP_7_OR_LATER;CSHARP_7_3_OR_NEWER</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
     <NoWarn>0169</NoWarn>
@@ -57,6 +57,7 @@
     <Compile Include="Assets\Hirabiki\VRCLens\Resource\VRCLensAssetManager.cs" />
     <Compile Include="Assets\Hirabiki\VRCLens\Resource\VRCLensProfileManager.cs" />
     <Compile Include="Assets\Hirabiki\VRCLens\Resource\VRCLensSetup.cs" />
+    <Compile Include="Assets\PumkinsAvatarTools\Scripts\Dependencies\SingletonScriptableObject.cs" />
     <Compile Include="Assets\VRCSDK\Dependencies\Oculus\Spatializer\Scripts\ONSPAudioSource.cs" />
     <Compile Include="Assets\VRCSDK\Dependencies\Oculus\Spatializer\Scripts\ONSPSettings.cs" />
     <Compile Include="Assets\VRCSDK\Dependencies\VRChat\Scripts\ApiFileHelper.cs" />
@@ -108,6 +109,7 @@
     <None Include="Assets\VRCSDK\Plugins\VRC.SDK3.Dynamics.Contact.dll" />
     <None Include="Assets\Toon\Shader\UCTS_DoubleShadeWithFeather.cginc" />
     <None Include="Assets\VRCSDK\Plugins\VRCCore-Standalone.dll" />
+    <None Include="Assets\PumkinsAvatarTools\Resources\FallbackShaders\Fallback_Toon_Cutout.shader" />
     <None Include="Assets\VRCSDK\Sample Assets\Shaders\Mobile\VRChat-Mobile-Skybox.shader" />
     <None Include="Assets\Toon\Shader\Tess\Toon_DoubleShadeWithFeather_Clipping_Tess.shader" />
     <None Include="Assets\Hirabiki\VRCLens\Resource\PivotIndicator.shader" />
@@ -115,6 +117,7 @@
     <None Include="Assets\Toon\Shader\Tess\ToonColor_ShadingGradeMap_AngelRing_TransClipping_Tess_StencilOut.shader" />
     <None Include="Assets\Toon\Shader\ToonColor_ShadingGradeMap_TransClipping_StencilOut.shader" />
     <None Include="Assets\Toon\Shader\ToonColor_DoubleShadeWithFeather_StencilMask.shader" />
+    <None Include="Assets\PumkinsAvatarTools\Resources\FallbackShaders\Fallback_Toon_Opaque_Double.shader" />
     <None Include="Assets\Toon\Shader\Toon_DoubleShadeWithFeather_Mobile_Clipping_StencilMask.shader" />
     <None Include="Assets\Toon\Shader\Toon_ShadingGradeMap_AngelRing_StencilOut.shader" />
     <None Include="Assets\VRCSDK\Dependencies\librsync\librsync.net.dll" />
@@ -125,6 +128,7 @@
     <None Include="Assets\Toon\Shader\Tess\UCTS_Outline_Tess.cginc" />
     <None Include="Assets\Toon\Shader\Toon_ShadingGradeMap_AngelRing_TransClipping_StencilOut.shader" />
     <None Include="Assets\Hirabiki\VRCLens\Resource\DepthOfFieldInclude.cginc" />
+    <None Include="Assets\PumkinsAvatarTools\Resources\FallbackShaders\Fallback_Matcap.shader" />
     <None Include="Assets\Toon\Shader\Toon_OutlineObject.shader" />
     <None Include="Assets\Hirabiki\VRCLens\Resource\DepthOfField.shader" />
     <None Include="Assets\VRCSDK\Sample Assets\Shaders\Mobile\VRChat-Mobile-BumpedMappedSpecular.shader" />
@@ -146,6 +150,7 @@
     <None Include="Assets\Toon\Shader\ToonColor_ShadingGradeMap_StencilOut.shader" />
     <None Include="Assets\VRCSDK\Dependencies\Managed\System.Memory.dll" />
     <None Include="Assets\Toon\Shader\Tess\ToonColor_ShadingGradeMap_AngelRing_Tess_TransClipping.shader" />
+    <None Include="Assets\PumkinsAvatarTools\Resources\TexturePacker\PumkinsTexturePacker.shader" />
     <None Include="Assets\Toon\Shader\ToonColor_ShadingGradeMap_AngelRing_StencilOut.shader" />
     <None Include="Assets\Toon\Shader\Tess\ToonColor_DoubleShadeWithFeather_Clipping_Tess_StencilOut.shader" />
     <None Include="Assets\Toon\Shader\Tess\ToonColor_ShadingGradeMap_Tess_StencilMask.shader" />
@@ -170,6 +175,7 @@
     <None Include="Assets\Hirabiki\VRCLens\Resource\DepthOfFieldAuxFocus.shader" />
     <None Include="Assets\Hirabiki\VRCLens\readme_DoNotDelete.txt" />
     <None Include="Assets\Toon\Shader\ToonColor_DoubleShadeWithFeather_TransClipping_StencilMask.shader" />
+    <None Include="Assets\PumkinsAvatarTools\Resources\FallbackShaders\Fallback_Unlit_Texture.shader" />
     <None Include="Assets\VRCSDK\license.txt" />
     <None Include="Assets\Toon\Shader\ToonColor_DoubleShadeWithFeather.shader" />
     <None Include="Assets\Toon\Shader\Tess\Toon_ShadingGradeMap_Tess_StencilOut.shader" />
@@ -217,6 +223,7 @@
     <None Include="Assets\Toon\Shader\Tess\Toon_ShadingGradeMap_AngelRing_Tess.shader" />
     <None Include="Assets\Toon\Shader\Tess\ToonColor_DoubleShadeWithFeather_TransClipping_Tess_StencilMask.shader" />
     <None Include="Assets\VRCSDK\Dependencies\VRChat\Resources\awsconfig.xml" />
+    <None Include="Assets\PumkinsAvatarTools\Resources\FallbackShaders\Fallback_Toon_Cutout_Double.shader" />
     <None Include="Assets\Toon\Shader\Toon_DoubleShadeWithFeather_Clipping_StencilMask.shader" />
     <None Include="Assets\VRCSDK\Sample Assets\Shaders\VRChat-Sprites-Diffuse.shader" />
     <None Include="Assets\Toon\Shader\Toon_ShadingGradeMap_AngelRing.shader" />
@@ -225,6 +232,7 @@
     <None Include="Assets\VRCSDK\Sample Assets\Shaders\Mobile\VRChat-Mobile-StandardLite.shader" />
     <None Include="Assets\Toon\Shader\ToonColor_DoubleShadeWithFeather_Transparent_StencilOut.shader" />
     <None Include="Assets\Toon\Shader\Tess\ToonColor_DoubleShadeWithFeather_Clipping_Tess.shader" />
+    <None Include="Assets\PumkinsAvatarTools\Resources\FallbackShaders\Unlit_Color.shader" />
     <None Include="Assets\Toon\Shader\ToonColor_ShadingGradeMap_TransClipping_StencilMask.shader" />
     <None Include="Assets\VRCSDK\Sample Assets\Shaders\Mobile\VRChat-Mobile-Particle-Alpha.shader" />
     <None Include="Assets\VRCSDK\Dependencies\Managed\System.Runtime.CompilerServices.Unsafe.dll" />
@@ -243,6 +251,7 @@
     <None Include="Assets\Toon\Shader\ToonColor_DoubleShadeWithFeather_Clipping_StencilMask.shader" />
     <None Include="Assets\Toon\Shader\ToonColor_DoubleShadeWithFeather_Clipping.shader" />
     <None Include="Assets\Toon\Shader\Toon_ShadingGradeMap_Mobile_TransClipping.shader" />
+    <None Include="Assets\PumkinsAvatarTools\Resources\FallbackShaders\Fallback_Toon_Opaque.shader" />
     <None Include="Assets\VRCSDK\Plugins\VRCSDKBase-Editor.dll" />
     <None Include="Assets\Toon\Shader\UCTS_ShadingGradeMap.cginc" />
     <None Include="Assets\Toon\Shader\UCTS_Outline.cginc" />
@@ -279,6 +288,7 @@
     <None Include="Assets\VRCSDK\Sample Assets\Shaders\Mobile\VRChat-Mobile-ToonLit.shader" />
     <None Include="Assets\Toon\Shader\Tess\ToonColor_ShadingGradeMap_TransClipping_Tess_StencilMask.shader" />
     <None Include="Assets\Toon\Shader\Toon_ShadingGradeMap_Mobile_StencilOut.shader" />
+    <None Include="Assets\PumkinsAvatarTools\Resources\TexturePacker\PumkinsTextureUnpacker.shader" />
     <None Include="Assets\Toon\Shader\Tess\Toon_ShadingGradeMap_Tess_Light_StencilMask.shader" />
   </ItemGroup>
   <ItemGroup>
